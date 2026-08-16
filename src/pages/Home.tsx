@@ -25,17 +25,14 @@ export default function Home() {
 
         {/* BLOCO 1: TÍTULO + SUBTÍTULO NO TOPO ESQUERDO */}
         <div className="absolute z-10 top-24 left-8 md:top-32 md:left-16 max-w-[90vw] md:max-w-xl">
-          <span className="text-orange-500 text-base font-bold tracking-widest uppercase mb-3 block drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
+          <span className="text-black-500 text-lg md:text-xl font-bold tracking-widest uppercase mb-3 block">
             SISTEMAS DE BOMBEAMENTO INDUSTRIAL
           </span>
           <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white leading-tight drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)]">
             <span className="block whitespace-nowrap">Sua solução para bombeamento</span>
-            <span className="block whitespace-nowrap">começa aqui.</span>
+            <span className="block whitespace-nowrap">começa aqui</span>
           </h1>
           <p className="mt-4 text-sm md:text-base text-gray-100 leading-relaxed max-w-xs md:max-w-sm drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
-            Bombas helicoidais de alta durabilidade e precisão projetadas sob medida para as demandas industriais mais exigentes.
-          </p>
-          <p className="mt-2 text-sm md:text-base text-gray-100 leading-relaxed max-w-xs md:max-w-sm drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
             Fabricação, dimensionamento, manutenção e assistência técnica para aplicações industriais complexas.
           </p>
         </div>
@@ -46,14 +43,9 @@ export default function Home() {
             Conhecer Produtos
             <span>→</span>
           </a>
-          <div className="relative">
-            <a href="https://wa.me/554733002250" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center border border-orange-500/60 hover:border-orange-500 text-white font-bold px-6 py-3 rounded-lg transition-colors backdrop-blur-sm drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
-              Falar com um especialista
-            </a>
-            <span className="absolute top-full right-0 mt-1.5 text-xs text-gray-100 max-w-[220px] text-right leading-snug whitespace-normal drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]">
-              Envie os dados da sua aplicação e receba uma orientação inicial da equipe técnica.
-            </span>
-          </div>
+          <a href="https://wa.me/554733002250" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center border border-orange-500/60 hover:border-orange-500 text-white font-bold px-6 py-3 rounded-lg transition-colors backdrop-blur-sm drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
+            Falar com um especialista
+          </a>
         </div>
       </section>
 
