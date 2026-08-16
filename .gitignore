@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.vercel
+
+# Backend arquivado (server.archived/) — ver server.archived/ARCHIVED.md
+server.archived/.env
+server.archived/data/
+server.archived/node_modules/
+server.archived/dist/
+
+# Ferramentas de IA / config local (Claude Code e afins) — não fazem parte do site
+.claude/
+.agents/
+.claudeignore
+skills-lock.json
+taste-skill-main.zip
