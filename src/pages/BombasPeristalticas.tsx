@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { Breadcrumb } from "../components/Breadcrumb";
+import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gauge, Drop, ShieldCheck, Recycle, Wrench, CheckCircle, ForkKnife, TestTube, Flask } from "@phosphor-icons/react";
 
 const specs = [
@@ -64,8 +65,14 @@ export default function BombasPeristalticas() {
                 </div>
             </section>
 
+            <SectionNav items={[
+                { id: "sobre", label: "Sobre" },
+                { id: "vantagens", label: "Vantagens" },
+                { id: "aplicacoes", label: "Aplicações" },
+            ]} />
+
             {/* Sobre + Especificações */}
-            <section className="py-20 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="sobre" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[1200px] mx-auto grid lg:grid-cols-2 gap-12 items-start">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -114,7 +121,7 @@ export default function BombasPeristalticas() {
             </section>
 
             {/* Vantagens */}
-            <section className="py-20 px-6 bg-white text-black">
+            <section id="vantagens" className="py-20 px-6 bg-white text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -154,7 +161,7 @@ export default function BombasPeristalticas() {
             </section>
 
             {/* Aplicações */}
-            <section className="py-20 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="aplicacoes" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}

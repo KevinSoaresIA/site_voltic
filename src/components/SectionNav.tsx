@@ -24,7 +24,7 @@ export function SectionNav({ items }: { items: NavItem[] }) {
   return (
     <div className="sticky top-16 z-30 bg-white/95 backdrop-blur-sm border-b border-gray-200">
       <div className="max-w-[1200px] mx-auto px-6">
-        <div className="flex gap-1 overflow-x-auto py-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <div className="flex gap-1 justify-center overflow-x-auto py-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {items.map((item) => (
             <a
               key={item.id}

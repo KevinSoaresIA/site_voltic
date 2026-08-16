@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { Breadcrumb } from "../components/Breadcrumb";
+import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gear, Drop, Cube, Wrench, ShieldCheck, Package, Ruler, Truck, CheckCircle, Headset } from "@phosphor-icons/react";
 
 const componentes = [
@@ -121,8 +122,14 @@ export default function PecasReposicao() {
                 </div>
             </section>
 
+            <SectionNav items={[
+                { id: "sobre", label: "Sobre" },
+                { id: "componentes", label: "Componentes" },
+                { id: "beneficios", label: "Benefícios" },
+            ]} />
+
             {/* Sobre */}
-            <section className="py-20 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="sobre" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[800px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -202,7 +209,7 @@ export default function PecasReposicao() {
             </section>
 
             {/* Benefícios */}
-            <section className="py-20 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="beneficios" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}

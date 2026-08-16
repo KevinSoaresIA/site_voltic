@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { Breadcrumb } from "../components/Breadcrumb";
+import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gear, Shield, Sun, Wind, Lightning, Drop, Gauge, Circuitry, Wrench, Eye, Cube, Leaf } from "@phosphor-icons/react";
 import skids1 from "../assets/images/skids-1.jpeg";
 import skids2 from "../assets/images/skids-2.jpeg";
@@ -86,8 +87,15 @@ export default function SkidsDosagem() {
                 </div>
             </section>
 
+            <SectionNav items={[
+                { id: "sobre", label: "Sobre" },
+                { id: "caracteristicas", label: "Características" },
+                { id: "acionamentos", label: "Acionamentos" },
+                { id: "opcionais", label: "Opcionais" },
+            ]} />
+
             {/* Sobre */}
-            <section className="py-20 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="sobre" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[800px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -160,7 +168,7 @@ export default function SkidsDosagem() {
             </section>
 
             {/* Acionamentos */}
-            <section className="py-20 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="acionamentos" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -199,7 +207,7 @@ export default function SkidsDosagem() {
             </section>
 
             {/* Opcionais */}
-            <section className="py-20 px-6 bg-white text-black">
+            <section id="opcionais" className="py-20 px-6 bg-white text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}

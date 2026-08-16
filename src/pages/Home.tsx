@@ -22,9 +22,6 @@ export default function Home() {
       {/* 1. HERO SECTION */}
       <section id="hero-section" className="relative overflow-hidden min-h-screen">
         <img src={bombaMontada} alt="Bomba Helicoidal Voltic" className="absolute inset-0 w-full h-full object-cover" />
-        {/* Véu de contraste: escurece os cantos onde o texto fica, mantém o centro da foto visível */}
-        <div className="absolute inset-0 bg-gradient-to-br from-black/75 via-black/25 to-black/80"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
 
         {/* BLOCO 1: TÍTULO + SUBTÍTULO NO TOPO ESQUERDO */}
         <div className="absolute z-10 top-24 left-8 md:top-32 md:left-16 max-w-[90vw] md:max-w-xl">
@@ -50,7 +47,7 @@ export default function Home() {
             <span>→</span>
           </a>
           <div className="relative">
-            <a href="https://wa.me/554733002250" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center border border-orange-500/60 hover:border-orange-500 text-white font-bold px-6 py-3 rounded-lg transition-colors backdrop-blur-sm">
+            <a href="https://wa.me/554733002250" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center border border-orange-500/60 hover:border-orange-500 text-white font-bold px-6 py-3 rounded-lg transition-colors backdrop-blur-sm drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
               Falar com um especialista
             </a>
             <span className="absolute top-full right-0 mt-1.5 text-xs text-gray-100 max-w-[220px] text-right leading-snug whitespace-normal drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]">
