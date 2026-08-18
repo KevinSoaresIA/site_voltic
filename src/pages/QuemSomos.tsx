@@ -101,7 +101,7 @@ export default function QuemSomos() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-              className="relative w-full max-w-[400px] aspect-[4/3] rounded-lg border border-brand-border bg-brand-card/50 flex flex-col items-center justify-center p-8 overflow-hidden group hover:border-brand-blue/30 transition-colors duration-300"
+              className="relative w-full max-w-[400px] aspect-[4/3] rounded-lg border border-brand-border bg-brand-card/50 flex flex-col items-center justify-center p-8 overflow-hidden group hover:border-brand-blue-bright/30 transition-colors duration-300"
             >
               <img src={volticEmpresaLocal} alt="Sede Industrial Voltic - Rio dos Cedros, SC" className="absolute inset-0 w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-tr from-brand-blue/10 to-transparent opacity-50"></div>

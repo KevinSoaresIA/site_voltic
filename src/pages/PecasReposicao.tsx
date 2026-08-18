@@ -98,7 +98,7 @@ export default function PecasReposicao() {
                             initial={{ opacity: 0, scale: 0.95 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-                            className="relative w-full max-w-[450px] aspect-square rounded-lg border border-brand-border bg-brand-card/50 flex flex-col items-center justify-center p-8 overflow-hidden group hover:border-brand-blue/30 transition-colors duration-300"
+                            className="relative w-full max-w-[450px] aspect-square rounded-lg border border-brand-border bg-brand-card/50 flex flex-col items-center justify-center p-8 overflow-hidden group hover:border-brand-blue-bright/30 transition-colors duration-300"
                         >
                             {/* ASSET: reposicao-hero.jpg */}
                             <div className="absolute inset-0 bg-gradient-to-tr from-brand-blue/5 to-transparent opacity-50"></div>
@@ -108,7 +108,7 @@ export default function PecasReposicao() {
                             <div className="absolute bottom-4 right-4 font-mono text-[9px] text-brand-muted/40 uppercase tracking-widest">
                                 ESTOQUE // PRONTA ENTREGA
                             </div>
-                            <div className="w-20 h-20 rounded-lg border border-brand-muted/30 flex items-center justify-center mb-4 group-hover:border-brand-blue/40 transition-colors duration-300">
+                            <div className="w-20 h-20 rounded-lg border border-brand-muted/30 flex items-center justify-center mb-4 group-hover:border-brand-blue-bright/40 transition-colors duration-300">
                                 <Package size={32} className="text-brand-muted/50" />
                             </div>
                             <span className="font-heading text-sm font-bold tracking-wider text-brand-text uppercase text-center block">

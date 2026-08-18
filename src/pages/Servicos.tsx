@@ -162,7 +162,7 @@ export default function Servicos() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-              className="relative w-full max-w-[400px] aspect-square rounded-lg border border-brand-border bg-brand-card/50 flex flex-col items-center justify-center p-8 overflow-hidden group hover:border-brand-blue/30 transition-colors duration-300"
+              className="relative w-full max-w-[400px] aspect-square rounded-lg border border-brand-border bg-brand-card/50 flex flex-col items-center justify-center p-8 overflow-hidden group hover:border-brand-blue-bright/30 transition-colors duration-300"
             >
               {/* ASSET: servicos-hero.jpg */}
               <div className="absolute inset-0 bg-gradient-to-tr from-brand-blue/5 to-transparent opacity-50"></div>
@@ -173,17 +173,17 @@ export default function Servicos() {
                 Retorno inicial em até 24 horas úteis
               </div>
               <div className="grid grid-cols-2 gap-3 mb-6">
-                <div className="p-3 rounded border border-brand-muted/20 group-hover:border-brand-blue/30 transition-colors duration-300">
-                  <Factory size={20} className="text-brand-muted/50 group-hover:text-brand-blue transition-colors" />
+                <div className="p-3 rounded border border-brand-muted/20 group-hover:border-brand-blue-bright/30 transition-colors duration-300">
+                  <Factory size={20} className="text-brand-muted/50 group-hover:text-brand-blue-bright transition-colors" />
                 </div>
-                <div className="p-3 rounded border border-brand-muted/20 group-hover:border-brand-blue/30 transition-colors duration-300">
-                  <Wrench size={20} className="text-brand-muted/50 group-hover:text-brand-blue transition-colors" />
+                <div className="p-3 rounded border border-brand-muted/20 group-hover:border-brand-blue-bright/30 transition-colors duration-300">
+                  <Wrench size={20} className="text-brand-muted/50 group-hover:text-brand-blue-bright transition-colors" />
                 </div>
-                <div className="p-3 rounded border border-brand-muted/20 group-hover:border-brand-blue/30 transition-colors duration-300">
-                  <Gear size={20} className="text-brand-muted/50 group-hover:text-brand-blue transition-colors" />
+                <div className="p-3 rounded border border-brand-muted/20 group-hover:border-brand-blue-bright/30 transition-colors duration-300">
+                  <Gear size={20} className="text-brand-muted/50 group-hover:text-brand-blue-bright transition-colors" />
                 </div>
-                <div className="p-3 rounded border border-brand-muted/20 group-hover:border-brand-blue/30 transition-colors duration-300">
-                  <GraduationCap size={20} className="text-brand-muted/50 group-hover:text-brand-blue transition-colors" />
+                <div className="p-3 rounded border border-brand-muted/20 group-hover:border-brand-blue-bright/30 transition-colors duration-300">
+                  <GraduationCap size={20} className="text-brand-muted/50 group-hover:text-brand-blue-bright transition-colors" />
                 </div>
               </div>
               <span className="font-heading text-xs font-bold tracking-wider text-brand-text uppercase text-center block">

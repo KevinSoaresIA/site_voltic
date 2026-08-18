@@ -25,7 +25,7 @@ export default function Home() {
 
         {/* BLOCO 1: TÍTULO + SUBTÍTULO NO TOPO ESQUERDO */}
         <div className="absolute z-10 top-24 left-8 md:top-32 md:left-16 max-w-[90vw] md:max-w-xl">
-          <span className="text-brand-blue text-lg md:text-xl font-bold tracking-widest uppercase mb-3 block">
+          <span className="text-brand-blue-bright text-lg md:text-xl font-bold tracking-widest uppercase mb-3 block">
             SISTEMAS DE BOMBEAMENTO INDUSTRIAL
           </span>
           <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white leading-tight drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)]">
@@ -43,7 +43,7 @@ export default function Home() {
             Conhecer Produtos
             <span>→</span>
           </a>
-          <a href="https://wa.me/554733002250" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center border border-brand-blue/60 hover:border-brand-blue text-white font-bold px-6 py-3 rounded-lg transition-colors backdrop-blur-sm drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
+          <a href="https://wa.me/554733002250" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center border border-brand-blue-bright/60 hover:border-brand-blue-bright text-white font-bold px-6 py-3 rounded-lg transition-colors backdrop-blur-sm drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
             Falar com um especialista
           </a>
         </div>
@@ -288,7 +288,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.6, delay: segment.delay, ease: [0.16, 1, 0.3, 1] }}
-                className="group relative h-[280px] rounded-lg border border-gray-200 bg-white flex flex-col justify-between p-6 overflow-hidden hover:border-brand-blue/30 transition-all duration-300 hover:-translate-y-1 shadow-md hover:shadow-lg"
+                className="group relative h-[280px] rounded-lg border border-gray-200 bg-white flex flex-col justify-between p-6 overflow-hidden hover:border-brand-blue-bright/30 transition-all duration-300 hover:-translate-y-1 shadow-md hover:shadow-lg"
               >
                 <img src={segment.image} alt={segment.title} className="absolute inset-0 w-full h-full object-cover z-0" />
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-bg via-brand-bg/80 to-transparent z-10"></div>
@@ -296,10 +296,10 @@ export default function Home() {
 
                 {/* Top Section: Icon & Header */}
                 <div className="relative z-20 flex justify-between items-start">
-                  <div className="p-3 bg-brand-bg/80 rounded border border-brand-border text-white group-hover:border-brand-blue/30 transition-all duration-300">
+                  <div className="p-3 bg-brand-bg/80 rounded border border-brand-border text-white group-hover:border-brand-blue-bright/30 transition-all duration-300">
                     {segment.icon}
                   </div>
-                  <ArrowUpRight size={18} className="text-brand-muted/30 group-hover:text-brand-blue group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300" />
+                  <ArrowUpRight size={18} className="text-brand-muted/30 group-hover:text-brand-blue-bright group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300" />
                 </div>
 
                 {/* Bottom Section: Copy */}
@@ -370,7 +370,7 @@ export default function Home() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-              className="w-full aspect-[16/9] rounded-lg border border-brand-border bg-brand-bg/50 overflow-hidden flex flex-col items-center justify-center p-4 relative group hover:border-brand-blue/20 transition-colors"
+              className="w-full aspect-[16/9] rounded-lg border border-brand-border bg-brand-bg/50 overflow-hidden flex flex-col items-center justify-center p-4 relative group hover:border-brand-blue-bright/20 transition-colors"
             >
               <img src={homeFiberglassPlant} alt="Suporte técnico e manutenção Voltic" className="absolute inset-0 w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-r from-brand-blue/10 to-transparent z-10"></div>
@@ -431,16 +431,16 @@ export default function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.6, delay: service.delay, ease: [0.16, 1, 0.3, 1] }}
-                className="group flex gap-4 p-5 bg-brand-bg/40 border border-brand-border rounded-lg hover:border-brand-blue/30 transition-all duration-300 hover:bg-brand-card/40"
+                className="group flex gap-4 p-5 bg-brand-bg/40 border border-brand-border rounded-lg hover:border-brand-blue-bright/30 transition-all duration-300 hover:bg-brand-card/40"
               >
                 {/* Icon Column */}
-                <div className="p-3 bg-brand-card rounded border border-brand-border text-white group-hover:bg-brand-blue/10 group-hover:border-brand-blue/30 transition-all duration-300 shrink-0 h-fit">
+                <div className="p-3 bg-brand-card rounded border border-brand-border text-white group-hover:bg-brand-blue/10 group-hover:border-brand-blue-bright/30 transition-all duration-300 shrink-0 h-fit">
                   {service.icon}
                 </div>
 
                 {/* Content Column */}
                 <div className="flex flex-col gap-1 text-left">
-                  <h3 className="font-heading text-base font-bold tracking-tight text-brand-text group-hover:text-brand-blue transition-colors">
+                  <h3 className="font-heading text-base font-bold tracking-tight text-brand-text group-hover:text-brand-blue-bright transition-colors">
                     {service.title}
                   </h3>
                   <p className="text-xs sm:text-sm text-brand-muted leading-relaxed max-w-[550px]">

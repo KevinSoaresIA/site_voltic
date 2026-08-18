@@ -12,7 +12,7 @@ export default function EmConstrucao({ title }: { title: string }) {
                     transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
                     className="p-6 bg-brand-card border border-brand-border rounded-lg"
                 >
-                    <Gear size={48} className="text-brand-blue animate-spin" style={{ animationDuration: "3s" }} />
+                    <Gear size={48} className="text-brand-blue-bright animate-spin" style={{ animationDuration: "3s" }} />
                 </motion.div>
 
                 <motion.div
