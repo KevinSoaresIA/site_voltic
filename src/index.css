@@ -13,8 +13,9 @@
   --color-brand-card: #1A1A1A;
   --color-brand-text: #f8fafc;
   --color-brand-muted: #94a3b8;
-  --color-brand-orange: #f97316;
-  --color-brand-orange-hover: #ea580c;
+  --color-brand-blue: #102E45;
+  --color-brand-blue-hover: #0e273b;
+  --color-brand-blue-bright: #3B82F6;
   --color-brand-border: rgba(255, 255, 255, 0.08);
 
   --animate-shimmer: shimmer 2.5s infinite linear;
@@ -76,12 +77,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-brand-orange);
+  background: var(--color-brand-blue);
 }
 
 /* Selection */
 ::selection {
-  background-color: var(--color-brand-orange);
+  background-color: var(--color-brand-blue);
   color: #ffffff;
 }
 
@@ -90,7 +91,7 @@ button:focus-visible,
 a:focus-visible,
 input:focus-visible,
 textarea:focus-visible {
-  outline: 2px solid var(--color-brand-orange);
+  outline: 2px solid var(--color-brand-blue);
   outline-offset: 2px;
 }
 

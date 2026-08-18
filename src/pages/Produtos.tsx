@@ -101,7 +101,7 @@ export default function Produtos() {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20 w-fit mb-6"
+            className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-white bg-white/10 px-3 py-1.5 rounded-full border border-white/20 w-fit mb-6"
           >
             Catálogo // Linha Completa
           </motion.div>
@@ -138,13 +138,13 @@ export default function Produtos() {
             >
               <Link
                 to={item.rota}
-                className="group flex flex-col h-full p-6 bg-brand-card/40 border border-brand-border rounded-lg hover:border-brand-orange/30 hover:bg-brand-card/70 transition-all duration-300"
+                className="group flex flex-col h-full p-6 bg-brand-card/40 border border-brand-border rounded-lg hover:border-brand-blue/30 hover:bg-brand-card/70 transition-all duration-300"
               >
                 <div className="flex items-start justify-between mb-4">
-                  <div className="p-2.5 bg-brand-card rounded border border-brand-border text-brand-orange group-hover:bg-brand-orange/10 group-hover:border-brand-orange/30 transition-all duration-300">
+                  <div className="p-2.5 bg-brand-card rounded border border-brand-border text-brand-blue group-hover:bg-brand-blue/10 group-hover:border-brand-blue/30 transition-all duration-300">
                     {item.icon}
                   </div>
-                  <ArrowUpRight size={18} className="text-brand-muted/40 group-hover:text-brand-orange group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
+                  <ArrowUpRight size={18} className="text-brand-muted/40 group-hover:text-brand-blue group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
                 </div>
                 <h3 className="font-heading text-base font-bold tracking-tight mb-2 leading-snug">
                   {item.nome}
@@ -169,7 +169,7 @@ export default function Produtos() {
           </p>
           <Link
             to="/contato"
-            className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-orange hover:bg-brand-orange-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
+            className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
           >
             Falar com Engenharia
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />

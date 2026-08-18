@@ -25,7 +25,7 @@ export default function Home() {
 
         {/* BLOCO 1: TÍTULO + SUBTÍTULO NO TOPO ESQUERDO */}
         <div className="absolute z-10 top-24 left-8 md:top-32 md:left-16 max-w-[90vw] md:max-w-xl">
-          <span className="text-black-500 text-lg md:text-xl font-bold tracking-widest uppercase mb-3 block">
+          <span className="text-brand-blue text-lg md:text-xl font-bold tracking-widest uppercase mb-3 block">
             SISTEMAS DE BOMBEAMENTO INDUSTRIAL
           </span>
           <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white leading-tight drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)]">
@@ -39,11 +39,11 @@ export default function Home() {
 
         {/* BLOCO 3: BOTÕES NO CANTO INFERIOR DIREITO */}
         <div className="absolute z-10 bottom-52 right-8 md:bottom-64 md:right-24 flex flex-col sm:flex-row gap-4 items-end">
-          <a href="/bombahelicoidal" className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-lg transition-colors flex items-center gap-2">
+          <a href="/bombahelicoidal" className="bg-brand-blue hover:bg-brand-blue-hover text-white font-bold px-6 py-3 rounded-lg transition-colors flex items-center gap-2">
             Conhecer Produtos
             <span>→</span>
           </a>
-          <a href="https://wa.me/554733002250" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center border border-orange-500/60 hover:border-orange-500 text-white font-bold px-6 py-3 rounded-lg transition-colors backdrop-blur-sm drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
+          <a href="https://wa.me/554733002250" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center border border-brand-blue/60 hover:border-brand-blue text-white font-bold px-6 py-3 rounded-lg transition-colors backdrop-blur-sm drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
             Falar com um especialista
           </a>
         </div>
@@ -109,18 +109,18 @@ export default function Home() {
               >
                 <Link
                   to={item.to}
-                  className="group flex items-start gap-5 p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-all duration-300 h-full"
+                  className="group flex items-start gap-5 p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-all duration-300 h-full"
                 >
-                  <div className="p-3 bg-white rounded border border-gray-200 text-brand-orange group-hover:bg-brand-orange/10 group-hover:border-brand-orange/30 transition-all duration-300 shrink-0">
+                  <div className="p-3 bg-white rounded border border-gray-200 text-brand-blue group-hover:bg-brand-blue/10 group-hover:border-brand-blue/30 transition-all duration-300 shrink-0">
                     {item.icon}
                   </div>
                   <div className="flex flex-col gap-1.5 flex-1">
-                    <h3 className="font-heading text-base font-bold tracking-tight text-black group-hover:text-brand-orange transition-colors">
+                    <h3 className="font-heading text-base font-bold tracking-tight text-black group-hover:text-brand-blue transition-colors">
                       {item.titulo}
                     </h3>
                     <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
                   </div>
-                  <ArrowUpRight size={20} className="text-gray-600 group-hover:text-brand-orange group-hover:translate-x-1 group-hover:-translate-y-1 transition-all shrink-0 mt-1" />
+                  <ArrowUpRight size={20} className="text-gray-600 group-hover:text-brand-blue group-hover:translate-x-1 group-hover:-translate-y-1 transition-all shrink-0 mt-1" />
                 </Link>
               </motion.div>
             ))}
@@ -138,10 +138,10 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-              className="relative w-full aspect-[4/3] rounded-lg border border-gray-200 bg-gray-50 flex flex-col items-center justify-center p-8 overflow-hidden group hover:border-brand-orange/30 transition-colors duration-300"
+              className="relative w-full aspect-[4/3] rounded-lg border border-gray-200 bg-gray-50 flex flex-col items-center justify-center p-8 overflow-hidden group hover:border-brand-blue/30 transition-colors duration-300"
             >
               <img src={volticEmpresaLocal} alt="Voltic - engenharia e manufatura de bombas industriais" className="absolute inset-0 w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-tr from-brand-orange/10 to-transparent opacity-50"></div>
+              <div className="absolute inset-0 bg-gradient-to-tr from-brand-blue/10 to-transparent opacity-50"></div>
 
               <div className="absolute top-4 left-4 font-mono text-[9px] text-white/70 uppercase tracking-widest z-10">
                 VOLTIC.HQ // IND.AREA
@@ -184,7 +184,7 @@ export default function Home() {
             >
               <Link
                 to="/quemsomos"
-                className="inline-flex items-center gap-2 font-heading text-xs font-bold uppercase tracking-wider text-brand-orange hover:text-brand-orange-hover transition-colors group"
+                className="inline-flex items-center gap-2 font-heading text-xs font-bold uppercase tracking-wider text-brand-blue hover:text-brand-blue-hover transition-colors group"
               >
                 Saiba Mais Sobre Nós
                 <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
@@ -210,7 +210,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-              className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange"
+              className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue"
             >
               Segmentos de Atuação
             </motion.span>
@@ -288,18 +288,18 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.6, delay: segment.delay, ease: [0.16, 1, 0.3, 1] }}
-                className="group relative h-[280px] rounded-lg border border-gray-200 bg-white flex flex-col justify-between p-6 overflow-hidden hover:border-brand-orange/30 transition-all duration-300 hover:-translate-y-1 shadow-md hover:shadow-lg"
+                className="group relative h-[280px] rounded-lg border border-gray-200 bg-white flex flex-col justify-between p-6 overflow-hidden hover:border-brand-blue/30 transition-all duration-300 hover:-translate-y-1 shadow-md hover:shadow-lg"
               >
                 <img src={segment.image} alt={segment.title} className="absolute inset-0 w-full h-full object-cover z-0" />
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-bg via-brand-bg/80 to-transparent z-10"></div>
-                <div className="absolute inset-0 bg-brand-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0"></div>
+                <div className="absolute inset-0 bg-brand-blue/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0"></div>
 
                 {/* Top Section: Icon & Header */}
                 <div className="relative z-20 flex justify-between items-start">
-                  <div className="p-3 bg-brand-bg/80 rounded border border-brand-border text-brand-orange group-hover:border-brand-orange/30 transition-all duration-300">
+                  <div className="p-3 bg-brand-bg/80 rounded border border-brand-border text-white group-hover:border-brand-blue/30 transition-all duration-300">
                     {segment.icon}
                   </div>
-                  <ArrowUpRight size={18} className="text-brand-muted/30 group-hover:text-brand-orange group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300" />
+                  <ArrowUpRight size={18} className="text-brand-muted/30 group-hover:text-brand-blue group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300" />
                 </div>
 
                 {/* Bottom Section: Copy */}
@@ -325,7 +325,7 @@ export default function Home() {
             >
               <Link
                 to="/servicos"
-                className="inline-flex items-center gap-2 px-6 py-3 border border-brand-orange hover:bg-brand-orange/10 active:scale-[0.98] text-black font-heading text-xs font-semibold uppercase tracking-wider rounded transition-all duration-200"
+                className="inline-flex items-center gap-2 px-6 py-3 border border-brand-blue hover:bg-brand-blue/10 active:scale-[0.98] text-black font-heading text-xs font-semibold uppercase tracking-wider rounded transition-all duration-200"
               >
                 Conhecer Soluções e Serviços
                 <ArrowRight size={14} />
@@ -338,7 +338,7 @@ export default function Home() {
       {/* 4. SERVIÇOS SECTION (RESUMO) */}
       <section className="py-24 px-6 relative overflow-hidden bg-brand-card/20 border-b border-brand-border">
         {/* Subtle decorative glow */}
-        <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-brand-orange/2 rounded-full filter blur-[120px] pointer-events-none"></div>
+        <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-brand-blue/2 rounded-full filter blur-[120px] pointer-events-none"></div>
 
         <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
 
@@ -370,10 +370,10 @@ export default function Home() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-              className="w-full aspect-[16/9] rounded-lg border border-brand-border bg-brand-bg/50 overflow-hidden flex flex-col items-center justify-center p-4 relative group hover:border-brand-orange/20 transition-colors"
+              className="w-full aspect-[16/9] rounded-lg border border-brand-border bg-brand-bg/50 overflow-hidden flex flex-col items-center justify-center p-4 relative group hover:border-brand-blue/20 transition-colors"
             >
               <img src={homeFiberglassPlant} alt="Suporte técnico e manutenção Voltic" className="absolute inset-0 w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-r from-brand-orange/10 to-transparent z-10"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-brand-blue/10 to-transparent z-10"></div>
 
               <div className="absolute top-2 left-3 font-mono text-[8px] text-white/70 uppercase tracking-widest z-20">
                 TECH.DIAGNOSTICS // V.SERVICE
@@ -389,7 +389,7 @@ export default function Home() {
             >
               <Link
                 to="/servicos"
-                className="group inline-flex items-center gap-2 font-heading text-xs font-bold uppercase tracking-wider text-brand-orange hover:text-white transition-colors"
+                className="group inline-flex items-center gap-2 font-heading text-xs font-bold uppercase tracking-wider text-white hover:text-white/80 transition-colors"
               >
                 Ver Detalhes dos Serviços
                 <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
@@ -431,16 +431,16 @@ export default function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.6, delay: service.delay, ease: [0.16, 1, 0.3, 1] }}
-                className="group flex gap-4 p-5 bg-brand-bg/40 border border-brand-border rounded-lg hover:border-brand-orange/30 transition-all duration-300 hover:bg-brand-card/40"
+                className="group flex gap-4 p-5 bg-brand-bg/40 border border-brand-border rounded-lg hover:border-brand-blue/30 transition-all duration-300 hover:bg-brand-card/40"
               >
                 {/* Icon Column */}
-                <div className="p-3 bg-brand-card rounded border border-brand-border text-brand-orange group-hover:bg-brand-orange/10 group-hover:border-brand-orange/30 transition-all duration-300 shrink-0 h-fit">
+                <div className="p-3 bg-brand-card rounded border border-brand-border text-white group-hover:bg-brand-blue/10 group-hover:border-brand-blue/30 transition-all duration-300 shrink-0 h-fit">
                   {service.icon}
                 </div>
 
                 {/* Content Column */}
                 <div className="flex flex-col gap-1 text-left">
-                  <h3 className="font-heading text-base font-bold tracking-tight text-brand-text group-hover:text-brand-orange transition-colors">
+                  <h3 className="font-heading text-base font-bold tracking-tight text-brand-text group-hover:text-brand-blue transition-colors">
                     {service.title}
                   </h3>
                   <p className="text-xs sm:text-sm text-brand-muted leading-relaxed max-w-[550px]">
@@ -465,11 +465,11 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-2xl sm:text-3xl font-extrabold tracking-tighter text-gray-600 uppercase"
+              className="font-heading text-2xl sm:text-3xl font-extrabold tracking-tighter text-black uppercase"
             >
               Empresas que já confiaram em soluções da Voltic
             </motion.h2>
-            <div className="w-12 h-0.5 bg-brand-orange/40 mt-1"></div>
+            <div className="w-12 h-0.5 bg-brand-blue/40 mt-1"></div>
           </div>
 
           {/* Grid of Client Logos (6 brands) */}
@@ -506,7 +506,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 0.5, delay: index * 0.06, ease: [0.16, 1, 0.3, 1] }}
-                className="w-full flex items-center justify-center p-6 rounded bg-gray-50 border border-transparent hover:border-brand-orange/60 hover:bg-white hover:shadow-[0_0_20px_-2px_rgba(249,115,22,0.5)] transition-all duration-300 cursor-pointer"
+                className="w-full flex items-center justify-center p-6 rounded bg-gray-50 border border-transparent hover:border-brand-blue/60 hover:bg-white hover:shadow-[0_0_20px_-2px_rgba(16,46,69,0.5)] transition-all duration-300 cursor-pointer"
                 title={client.name}
               >
                 <img src={client.logo} alt={client.name} className="w-full max-w-[130px] max-h-8 object-contain brightness-0 opacity-50 hover:opacity-90 transition-opacity duration-300" />

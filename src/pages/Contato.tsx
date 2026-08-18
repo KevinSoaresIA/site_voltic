@@ -84,14 +84,14 @@ export default function Contato() {
       {/* 1. HERO */}
       <section className="relative min-h-[40vh] md:min-h-[50vh] flex items-center justify-center overflow-hidden pt-12 md:pt-16 pb-16 px-6 border-b border-brand-border">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
-        <div className="absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-brand-orange/5 rounded-full filter blur-[80px] pointer-events-none"></div>
+        <div className="absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-brand-blue/5 rounded-full filter blur-[80px] pointer-events-none"></div>
 
         <div className="max-w-[1400px] w-full mx-auto relative z-10 flex flex-col items-center text-center gap-6">
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-            className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20"
+            className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-white bg-white/10 px-3 py-1.5 rounded-full border border-white/20"
           >
             Contato // Fale Conosco
           </motion.div>
@@ -129,16 +129,16 @@ export default function Contato() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.5, delay: index * 0.08, ease: [0.16, 1, 0.3, 1] }}
-                className="group p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-all duration-300 flex flex-col gap-3"
+                className="group p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-all duration-300 flex flex-col gap-3"
               >
-                <div className="p-3 bg-white rounded border border-gray-200 text-brand-orange group-hover:bg-brand-orange/10 group-hover:border-brand-orange/30 transition-all duration-300 w-fit">
+                <div className="p-3 bg-white rounded border border-gray-200 text-brand-blue group-hover:bg-brand-blue/10 group-hover:border-brand-blue/30 transition-all duration-300 w-fit">
                   {item.icon}
                 </div>
                 <div className="flex flex-col gap-1">
                   <span className="font-mono text-[10px] text-gray-600 uppercase tracking-widest">
                     {item.titulo}
                   </span>
-                  <span className="font-heading text-sm font-bold tracking-tight text-black group-hover:text-brand-orange transition-colors break-words">
+                  <span className="font-heading text-sm font-bold tracking-tight text-black group-hover:text-brand-blue transition-colors break-words">
                     {item.valor}
                   </span>
                   <span className="text-xs text-gray-600">{item.sub}</span>
@@ -161,7 +161,7 @@ export default function Contato() {
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
               className="flex flex-col gap-3"
             >
-              <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange">
+              <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue">
                 Formulário de Contato
               </span>
               <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter leading-[1.05] text-black">
@@ -192,7 +192,7 @@ export default function Contato() {
                     required
                     value={formData.nome}
                     onChange={handleChange}
-                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-orange focus:outline-none transition-colors"
+                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-blue focus:outline-none transition-colors"
                     placeholder="Seu nome"
                   />
                 </div>
@@ -206,7 +206,7 @@ export default function Contato() {
                     required
                     value={formData.empresa}
                     onChange={handleChange}
-                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-orange focus:outline-none transition-colors"
+                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-blue focus:outline-none transition-colors"
                     placeholder="Nome da empresa"
                   />
                 </div>
@@ -223,7 +223,7 @@ export default function Contato() {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-orange focus:outline-none transition-colors"
+                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-blue focus:outline-none transition-colors"
                     placeholder="seu@email.com"
                   />
                 </div>
@@ -237,7 +237,7 @@ export default function Contato() {
                     required
                     value={formData.telefone}
                     onChange={handleChange}
-                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-orange focus:outline-none transition-colors"
+                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-blue focus:outline-none transition-colors"
                     placeholder="(11) 99999-9999"
                   />
                 </div>
@@ -251,7 +251,7 @@ export default function Contato() {
                   name="assunto"
                   value={formData.assunto}
                   onChange={handleChange}
-                  className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black focus:border-brand-orange focus:outline-none transition-colors cursor-pointer"
+                  className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black focus:border-brand-blue focus:outline-none transition-colors cursor-pointer"
                 >
                   {assuntos.map((assunto, i) => (
                     <option key={i} value={assunto}>
@@ -271,7 +271,7 @@ export default function Contato() {
                   rows={5}
                   value={formData.mensagem}
                   onChange={handleChange}
-                  className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-orange focus:outline-none transition-colors resize-none"
+                  className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-blue focus:outline-none transition-colors resize-none"
                   placeholder="Descreva sua necessidade: tipo de fluido, vazão, pressão, aplicação..."
                 />
               </div>
@@ -281,7 +281,7 @@ export default function Contato() {
                   type="checkbox"
                   checked={consentimento}
                   onChange={(e) => setConsentimento(e.target.checked)}
-                  className="mt-1 w-4 h-4 accent-brand-orange shrink-0 cursor-pointer"
+                  className="mt-1 w-4 h-4 accent-brand-blue shrink-0 cursor-pointer"
                 />
                 <span className="text-xs text-gray-600 leading-relaxed">
                   Concordo com o tratamento dos meus dados para fins de contato comercial. (LGPD - Lei nº 13.709/2018)
@@ -291,14 +291,14 @@ export default function Contato() {
               <button
                 type="submit"
                 disabled={!consentimento}
-                className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-orange hover:bg-brand-orange-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200 mt-2 disabled:bg-gray-200 disabled:text-gray-500 disabled:cursor-not-allowed disabled:active:scale-100 disabled:hover:bg-gray-200"
+                className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200 mt-2 disabled:bg-gray-200 disabled:text-gray-500 disabled:cursor-not-allowed disabled:active:scale-100 disabled:hover:bg-gray-200"
               >
                 Enviar solicitação
                 <WhatsappLogo size={16} className="group-hover:scale-110 transition-transform" />
               </button>
 
               {!consentimento && (
-                <p className="text-xs text-brand-orange leading-relaxed -mt-2">
+                <p className="text-xs text-brand-blue leading-relaxed -mt-2">
                   Marque a caixa acima para habilitar o envio.
                 </p>
               )}
@@ -321,7 +321,7 @@ export default function Contato() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="relative w-full aspect-[4/3] rounded-lg border border-gray-200 bg-white overflow-hidden group hover:border-brand-orange/30 transition-colors duration-300"
+              className="relative w-full aspect-[4/3] rounded-lg border border-gray-200 bg-white overflow-hidden group hover:border-brand-blue/30 transition-colors duration-300"
             >
               <iframe
                 title="Localização Voltic - Rio dos Cedros/SC"
@@ -347,20 +347,20 @@ export default function Contato() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="group p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-all duration-300 flex items-center gap-5"
+              className="group p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-all duration-300 flex items-center gap-5"
             >
-              <div className="p-4 bg-white rounded border border-gray-200 text-brand-orange group-hover:bg-brand-orange/10 group-hover:border-brand-orange/30 transition-all duration-300 shrink-0">
+              <div className="p-4 bg-white rounded border border-gray-200 text-brand-blue group-hover:bg-brand-blue/10 group-hover:border-brand-blue/30 transition-all duration-300 shrink-0">
                 <WhatsappLogo size={28} />
               </div>
               <div className="flex flex-col gap-1">
-                <h3 className="font-heading text-base font-bold tracking-tight text-black group-hover:text-brand-orange transition-colors">
+                <h3 className="font-heading text-base font-bold tracking-tight text-black group-hover:text-brand-blue transition-colors">
                   Falar pelo WhatsApp
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">
                   Prefere conversar agora? Clique e fale com nosso time comercial pelo WhatsApp.
                 </p>
               </div>
-              <ArrowUpRight size={20} className="text-gray-600 group-hover:text-brand-orange group-hover:translate-x-1 group-hover:-translate-y-1 transition-all ml-auto shrink-0" />
+              <ArrowUpRight size={20} className="text-gray-600 group-hover:text-brand-blue group-hover:translate-x-1 group-hover:-translate-y-1 transition-all ml-auto shrink-0" />
             </motion.a>
           </div>
         </div>
@@ -369,7 +369,7 @@ export default function Contato() {
       {/* 4. CTA FINAL */}
       <section className="py-24 px-6 relative overflow-hidden bg-white text-black">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.035)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.035)_1px,transparent_1px)] bg-[size:6rem_6rem] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none"></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-orange/3 rounded-full filter blur-[150px] pointer-events-none"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-blue/3 rounded-full filter blur-[150px] pointer-events-none"></div>
 
         <div className="max-w-[800px] mx-auto relative z-10 flex flex-col items-center text-center gap-6">
           <motion.h2
@@ -390,7 +390,7 @@ export default function Contato() {
           >
             <Link
               to="/bombahelicoidal"
-              className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-orange hover:bg-brand-orange-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
+              className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
             >
               Ver Produtos
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />

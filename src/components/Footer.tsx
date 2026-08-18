@@ -25,37 +25,37 @@ export function Footer() {
           </h3>
           <ul className="flex flex-col gap-2">
             <li>
-              <Link to="/" className="text-sm text-brand-muted hover:text-brand-orange transition-colors">
+              <Link to="/" className="text-sm text-brand-muted hover:text-brand-blue-bright transition-colors">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/quemsomos" className="text-sm text-brand-muted hover:text-brand-orange transition-colors">
+              <Link to="/quemsomos" className="text-sm text-brand-muted hover:text-brand-blue-bright transition-colors">
                 Quem Somos
               </Link>
             </li>
             <li>
-              <Link to="/servicos" className="text-sm text-brand-muted hover:text-brand-orange transition-colors">
+              <Link to="/servicos" className="text-sm text-brand-muted hover:text-brand-blue-bright transition-colors">
                 Serviços
               </Link>
             </li>
             <li>
-              <Link to="/contato" className="text-sm text-brand-muted hover:text-brand-orange transition-colors">
+              <Link to="/contato" className="text-sm text-brand-muted hover:text-brand-blue-bright transition-colors">
                 Contato
               </Link>
             </li>
             <li>
-              <Link to="/trabalheconosco" className="text-sm text-brand-muted hover:text-brand-orange transition-colors">
+              <Link to="/trabalheconosco" className="text-sm text-brand-muted hover:text-brand-blue-bright transition-colors">
                 Trabalhe Conosco
               </Link>
             </li>
             <li>
-              <Link to="/faq" className="text-sm text-brand-muted hover:text-brand-orange transition-colors">
+              <Link to="/faq" className="text-sm text-brand-muted hover:text-brand-blue-bright transition-colors">
                 Perguntas Frequentes
               </Link>
             </li>
             <li>
-              <Link to="/privacidade" className="text-sm text-brand-muted hover:text-brand-orange transition-colors">
+              <Link to="/privacidade" className="text-sm text-brand-muted hover:text-brand-blue-bright transition-colors">
                 Política de Privacidade
               </Link>
             </li>
@@ -69,32 +69,32 @@ export function Footer() {
           </h3>
           <ul className="flex flex-col gap-2">
             <li>
-              <Link to="/produtos/bomba-helicoidal" className="text-sm text-brand-muted hover:text-brand-orange transition-colors">
+              <Link to="/produtos/bomba-helicoidal" className="text-sm text-brand-muted hover:text-brand-blue-bright transition-colors">
                 Bomba Helicoidal
               </Link>
             </li>
             <li>
-              <Link to="/produtos/serie-vbc" className="text-sm text-brand-muted hover:text-brand-orange transition-colors">
+              <Link to="/produtos/serie-vbc" className="text-sm text-brand-muted hover:text-brand-blue-bright transition-colors">
                 Bombas Centrífugas
               </Link>
             </li>
             <li>
-              <Link to="/produtos/serie-vbf" className="text-sm text-brand-muted hover:text-brand-orange transition-colors">
+              <Link to="/produtos/serie-vbf" className="text-sm text-brand-muted hover:text-brand-blue-bright transition-colors">
                 Bombas de Fuso
               </Link>
             </li>
             <li>
-              <Link to="/produtos/skids-dosagem" className="text-sm text-brand-muted hover:text-brand-orange transition-colors">
+              <Link to="/produtos/skids-dosagem" className="text-sm text-brand-muted hover:text-brand-blue-bright transition-colors">
                 Skids de Dosagem
               </Link>
             </li>
             <li>
-              <Link to="/produtos/pecas-reposicao" className="text-sm text-brand-muted hover:text-brand-orange transition-colors">
+              <Link to="/produtos/pecas-reposicao" className="text-sm text-brand-muted hover:text-brand-blue-bright transition-colors">
                 Peças de Reposição
               </Link>
             </li>
             <li>
-              <Link to="/produtos" className="text-sm text-brand-orange hover:text-brand-orange-hover transition-colors font-medium">
+              <Link to="/produtos" className="text-sm text-brand-blue-bright hover:text-white transition-colors font-medium">
                 Ver todos os produtos →
               </Link>
             </li>
@@ -108,27 +108,27 @@ export function Footer() {
           </h3>
           <ul className="flex flex-col gap-3">
             <li className="flex items-start gap-3">
-              <EnvelopeSimple size={18} className="text-brand-orange mt-0.5 shrink-0" />
+              <EnvelopeSimple size={18} className="text-brand-blue-bright mt-0.5 shrink-0" />
               <a
                 href="mailto:vendas@voltic.com.br"
-                className="text-sm text-brand-muted hover:text-brand-orange transition-colors break-all font-mono"
+                className="text-sm text-brand-muted hover:text-brand-blue-bright transition-colors break-all font-mono"
               >
                 vendas@voltic.com.br
               </a>
             </li>
             <li className="flex items-start gap-3">
-              <PhoneCall size={18} className="text-brand-orange mt-0.5 shrink-0" />
+              <PhoneCall size={18} className="text-brand-blue-bright mt-0.5 shrink-0" />
               <a
                 href="https://wa.me/554733002250"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-brand-muted hover:text-brand-orange transition-colors font-mono"
+                className="text-sm text-brand-muted hover:text-brand-blue-bright transition-colors font-mono"
               >
                 (47) 3300-2250
               </a>
             </li>
             <li className="flex items-start gap-3">
-              <Clock size={18} className="text-brand-orange mt-0.5 shrink-0" />
+              <Clock size={18} className="text-brand-blue-bright mt-0.5 shrink-0" />
               <div className="text-sm text-brand-muted">
                 <span className="block font-medium">Segunda à sexta-feira</span>
                 <span className="block font-mono text-xs">07:30 às 17:30</span>
@@ -143,7 +143,7 @@ export function Footer() {
             Localização
           </h3>
           <div className="flex items-start gap-3">
-            <MapPin size={18} className="text-brand-orange mt-0.5 shrink-0" />
+            <MapPin size={18} className="text-brand-blue-bright mt-0.5 shrink-0" />
             <div className="text-sm text-brand-muted leading-relaxed">
               <span className="block">Acesso leste Rio dos Cedros AE-110A, 4900</span>
               <span className="block font-medium">Galpão 2</span>

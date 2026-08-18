@@ -73,7 +73,7 @@ export default function FAQ() {
                         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
                         className="flex flex-col items-center gap-4"
                     >
-                        <div className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20 w-fit">
+                        <div className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-white bg-white/10 px-3 py-1.5 rounded-full border border-white/20 w-fit">
                             Suporte // FAQ
                         </div>
                         <h1 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter leading-[1.05]">
@@ -112,7 +112,7 @@ export default function FAQ() {
                                     <motion.span
                                         animate={{ rotate: estaAberto ? 180 : 0 }}
                                         transition={{ duration: 0.3 }}
-                                        className="text-brand-orange shrink-0"
+                                        className="text-brand-blue shrink-0"
                                     >
                                         <CaretDown size={18} />
                                     </motion.span>

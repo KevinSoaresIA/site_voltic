@@ -117,14 +117,14 @@ export default function TrabalheConosco() {
       {/* 1. HERO */}
       <section className="relative min-h-[40vh] md:min-h-[50vh] flex items-center justify-center overflow-hidden pt-12 md:pt-16 pb-16 px-6 border-b border-brand-border">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
-        <div className="absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-brand-orange/5 rounded-full filter blur-[80px] pointer-events-none"></div>
+        <div className="absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-brand-blue/5 rounded-full filter blur-[80px] pointer-events-none"></div>
 
         <div className="max-w-[1400px] w-full mx-auto relative z-10 flex flex-col items-center text-center gap-6">
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-            className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20"
+            className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-white bg-white/10 px-3 py-1.5 rounded-full border border-white/20"
           >
             Carreiras // Trabalhe Conosco
           </motion.div>
@@ -156,7 +156,7 @@ export default function TrabalheConosco() {
           >
             <a
               href="#vagas"
-              className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-orange hover:bg-brand-orange-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
+              className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
             >
               Ver Vagas Abertas
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
@@ -180,7 +180,7 @@ export default function TrabalheConosco() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-              className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange"
+              className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue"
             >
               Nossa Cultura
             </motion.span>
@@ -203,12 +203,12 @@ export default function TrabalheConosco() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.6, delay: index * 0.1, ease: [0.16, 1, 0.3, 1] }}
-                className="group p-8 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-all duration-300 flex flex-col gap-5"
+                className="group p-8 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-all duration-300 flex flex-col gap-5"
               >
-                <div className="p-3 bg-white rounded border border-gray-200 text-brand-orange group-hover:bg-brand-orange/10 group-hover:border-brand-orange/30 transition-all duration-300 w-fit">
+                <div className="p-3 bg-white rounded border border-gray-200 text-brand-blue group-hover:bg-brand-blue/10 group-hover:border-brand-blue/30 transition-all duration-300 w-fit">
                   {item.icon}
                 </div>
-                <h3 className="font-heading text-xl font-bold tracking-tight text-black group-hover:text-brand-orange transition-colors">
+                <h3 className="font-heading text-xl font-bold tracking-tight text-black group-hover:text-brand-blue transition-colors">
                   {item.titulo}
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
@@ -227,7 +227,7 @@ export default function TrabalheConosco() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-              className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange"
+              className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue"
             >
               Benefícios
             </motion.span>
@@ -250,11 +250,11 @@ export default function TrabalheConosco() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.5, delay: index * 0.08, ease: [0.16, 1, 0.3, 1] }}
-                className="group flex items-start gap-4 p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-all duration-300"
+                className="group flex items-start gap-4 p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-all duration-300"
               >
-                <CheckCircle size={20} className="text-brand-orange shrink-0 mt-0.5" />
+                <CheckCircle size={20} className="text-brand-blue shrink-0 mt-0.5" />
                 <div className="flex flex-col gap-1">
-                  <h3 className="font-heading text-base font-bold tracking-tight text-black group-hover:text-brand-orange transition-colors">
+                  <h3 className="font-heading text-base font-bold tracking-tight text-black group-hover:text-brand-blue transition-colors">
                     {item.titulo}
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
@@ -275,7 +275,7 @@ export default function TrabalheConosco() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-              className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange"
+              className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue"
             >
               Vagas Abertas
             </motion.span>
@@ -298,18 +298,18 @@ export default function TrabalheConosco() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.6, delay: index * 0.1, ease: [0.16, 1, 0.3, 1] }}
-                className="group p-8 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-all duration-300 flex flex-col gap-4"
+                className="group p-8 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-all duration-300 flex flex-col gap-4"
               >
                 <div className="flex items-center gap-4">
-                  <div className="p-3 bg-white rounded border border-gray-200 text-brand-orange group-hover:bg-brand-orange/10 group-hover:border-brand-orange/30 transition-all duration-300 shrink-0">
+                  <div className="p-3 bg-white rounded border border-gray-200 text-brand-blue group-hover:bg-brand-blue/10 group-hover:border-brand-blue/30 transition-all duration-300 shrink-0">
                     {vaga.icon}
                   </div>
                   <div className="flex flex-col">
-                    <h3 className="font-heading text-lg font-bold tracking-tight text-black group-hover:text-brand-orange transition-colors">
+                    <h3 className="font-heading text-lg font-bold tracking-tight text-black group-hover:text-brand-blue transition-colors">
                       {vaga.cargo}
                     </h3>
                     <div className="flex items-center gap-2 mt-1">
-                      <span className="font-mono text-[10px] text-brand-orange uppercase tracking-widest">
+                      <span className="font-mono text-[10px] text-brand-blue uppercase tracking-widest">
                         {vaga.area}
                       </span>
                       <span className="text-gray-600/30 text-xs">|</span>
@@ -322,7 +322,7 @@ export default function TrabalheConosco() {
                 <p className="text-sm text-gray-600 leading-relaxed">{vaga.desc}</p>
                 <a
                   href="#candidatar"
-                  className="group/btn inline-flex items-center gap-2 text-sm font-heading font-semibold text-brand-orange hover:text-brand-orange-hover transition-colors mt-auto"
+                  className="group/btn inline-flex items-center gap-2 text-sm font-heading font-semibold text-brand-blue hover:text-brand-blue-hover transition-colors mt-auto"
                 >
                   Candidatar-se
                   <ArrowRight size={14} className="group-hover/btn:translate-x-1 transition-transform" />
@@ -364,7 +364,7 @@ export default function TrabalheConosco() {
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
               className="flex flex-col gap-3"
             >
-              <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange">
+              <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue">
                 Formulário de Candidatura
               </span>
               <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter leading-[1.05] text-black">
@@ -395,7 +395,7 @@ export default function TrabalheConosco() {
                     required
                     value={formData.nome}
                     onChange={handleChange}
-                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-orange focus:outline-none transition-colors"
+                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-blue focus:outline-none transition-colors"
                     placeholder="Seu nome"
                   />
                 </div>
@@ -409,7 +409,7 @@ export default function TrabalheConosco() {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-orange focus:outline-none transition-colors"
+                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-blue focus:outline-none transition-colors"
                     placeholder="seu@email.com"
                   />
                 </div>
@@ -426,7 +426,7 @@ export default function TrabalheConosco() {
                     required
                     value={formData.telefone}
                     onChange={handleChange}
-                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-orange focus:outline-none transition-colors"
+                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-blue focus:outline-none transition-colors"
                     placeholder="(11) 99999-9999"
                   />
                 </div>
@@ -440,7 +440,7 @@ export default function TrabalheConosco() {
                     required
                     value={formData.cargo}
                     onChange={handleChange}
-                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-orange focus:outline-none transition-colors"
+                    className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-blue focus:outline-none transition-colors"
                     placeholder="Ex: Técnico Mecânico"
                   />
                 </div>
@@ -456,7 +456,7 @@ export default function TrabalheConosco() {
                   rows={5}
                   value={formData.mensagem}
                   onChange={handleChange}
-                  className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-orange focus:outline-none transition-colors resize-none"
+                  className="bg-white border border-gray-200 rounded px-4 py-3 text-sm text-black placeholder:text-gray-600/40 focus:border-brand-blue focus:outline-none transition-colors resize-none"
                   placeholder="Conte sobre sua experiência, disponibilidade e link do seu LinkedIn..."
                 />
               </div>
@@ -466,7 +466,7 @@ export default function TrabalheConosco() {
                   type="checkbox"
                   checked={consentimento}
                   onChange={(e) => setConsentimento(e.target.checked)}
-                  className="mt-1 w-4 h-4 accent-brand-orange shrink-0 cursor-pointer"
+                  className="mt-1 w-4 h-4 accent-brand-blue shrink-0 cursor-pointer"
                 />
                 <span className="text-xs text-gray-600 leading-relaxed">
                   Concordo com o armazenamento dos meus dados para fins de recrutamento e seleção. (LGPD - Lei nº 13.709/2018)
@@ -476,7 +476,7 @@ export default function TrabalheConosco() {
               <button
                 type="submit"
                 disabled={!consentimento}
-                className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-orange hover:bg-brand-orange-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200 mt-2 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-brand-orange"
+                className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200 mt-2 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-brand-blue"
               >
                 Enviar Candidatura
                 <WhatsappLogo size={16} className="group-hover:scale-110 transition-transform" />
@@ -493,7 +493,7 @@ export default function TrabalheConosco() {
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
               className="flex flex-col gap-3"
             >
-              <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange">
+              <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue">
                 Departamento de RH
               </span>
               <h3 className="font-heading text-2xl font-extrabold tracking-tighter leading-[1.05] text-black">
@@ -512,16 +512,16 @@ export default function TrabalheConosco() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.6, delay: index * 0.08, ease: [0.16, 1, 0.3, 1] }}
-                className="group p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-all duration-300 flex items-center gap-5"
+                className="group p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-all duration-300 flex items-center gap-5"
               >
-                <div className="p-3 bg-white rounded border border-gray-200 text-brand-orange group-hover:bg-brand-orange/10 group-hover:border-brand-orange/30 transition-all duration-300 shrink-0">
+                <div className="p-3 bg-white rounded border border-gray-200 text-brand-blue group-hover:bg-brand-blue/10 group-hover:border-brand-blue/30 transition-all duration-300 shrink-0">
                   {item.icon}
                 </div>
                 <div className="flex flex-col gap-1">
                   <span className="font-mono text-[10px] text-gray-600 uppercase tracking-widest">
                     {item.titulo}
                   </span>
-                  <span className="font-heading text-sm font-bold tracking-tight text-black group-hover:text-brand-orange transition-colors break-words">
+                  <span className="font-heading text-sm font-bold tracking-tight text-black group-hover:text-brand-blue transition-colors break-words">
                     {item.valor}
                   </span>
                 </div>
@@ -537,9 +537,9 @@ export default function TrabalheConosco() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.6, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
-              className="group p-6 bg-brand-orange/5 border border-brand-orange/20 rounded-lg flex items-center gap-5"
+              className="group p-6 bg-brand-blue/5 border border-brand-blue/20 rounded-lg flex items-center gap-5"
             >
-              <div className="p-4 bg-brand-orange/10 rounded border border-brand-orange/30 text-brand-orange shrink-0">
+              <div className="p-4 bg-brand-blue/10 rounded border border-brand-blue/30 text-brand-blue shrink-0">
                 <WhatsappLogo size={28} />
               </div>
               <div className="flex flex-col gap-1">
@@ -550,7 +550,7 @@ export default function TrabalheConosco() {
                   Fale diretamente com nosso time de Recursos Humanos.
                 </p>
               </div>
-              <ArrowUpRight size={20} className="text-gray-600 group-hover:text-brand-orange group-hover:translate-x-1 group-hover:-translate-y-1 transition-all ml-auto shrink-0" />
+              <ArrowUpRight size={20} className="text-gray-600 group-hover:text-brand-blue group-hover:translate-x-1 group-hover:-translate-y-1 transition-all ml-auto shrink-0" />
             </motion.a>
           </div>
         </div>
@@ -559,7 +559,7 @@ export default function TrabalheConosco() {
       {/* 6. CTA FINAL */}
       <section className="py-24 px-6 relative overflow-hidden bg-white text-black">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.035)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.035)_1px,transparent_1px)] bg-[size:6rem_6rem] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none"></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-orange/3 rounded-full filter blur-[150px] pointer-events-none"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-blue/3 rounded-full filter blur-[150px] pointer-events-none"></div>
 
         <div className="max-w-[800px] mx-auto relative z-10 flex flex-col items-center text-center gap-6">
           <motion.h2
@@ -590,7 +590,7 @@ export default function TrabalheConosco() {
           >
             <Link
               to="/bombahelicoidal"
-              className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-orange hover:bg-brand-orange-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
+              className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
             >
               Ver Produtos
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />

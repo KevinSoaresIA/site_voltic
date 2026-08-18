@@ -12,7 +12,7 @@ export default function Privacidade() {
                         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
                         className="flex flex-col gap-4"
                     >
-                        <div className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20 w-fit">
+                        <div className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-white bg-white/10 px-3 py-1.5 rounded-full border border-white/20 w-fit">
                             Institucional // LGPD
                         </div>
                         <h1 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter leading-[1.05]">
@@ -117,7 +117,7 @@ export default function Privacidade() {
                         <p>
                             Para exercer seus direitos ou esclarecer dúvidas sobre esta política, entre em contato
                             pelo e-mail{" "}
-                            <a href="mailto:vendas@voltic.com.br" className="text-brand-orange font-medium hover:underline">
+                            <a href="mailto:vendas@voltic.com.br" className="text-brand-blue font-medium hover:underline">
                                 vendas@voltic.com.br
                             </a>
                             .

@@ -12,14 +12,14 @@ export default function EmConstrucao({ title }: { title: string }) {
                     transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
                     className="p-6 bg-brand-card border border-brand-border rounded-lg"
                 >
-                    <Gear size={48} className="text-brand-orange animate-spin" style={{ animationDuration: "3s" }} />
+                    <Gear size={48} className="text-brand-blue animate-spin" style={{ animationDuration: "3s" }} />
                 </motion.div>
 
                 <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-                    className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20"
+                    className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-white bg-white/10 px-3 py-1.5 rounded-full border border-white/20"
                 >
                     Em Construção
                 </motion.div>
@@ -50,7 +50,7 @@ export default function EmConstrucao({ title }: { title: string }) {
                 >
                     <Link
                         to="/bombahelicoidal"
-                        className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-orange hover:bg-brand-orange-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
+                        className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
                     >
                         Ver Bomba Helicoidal
                         <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />

@@ -94,7 +94,7 @@ export default function BombaHelicoidal() {
                         className="flex flex-col gap-6"
                     >
                         <Breadcrumb current="Bomba Helicoidal" />
-                        <div className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20 w-fit">
+                        <div className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-white bg-white/10 px-3 py-1.5 rounded-full border border-white/20 w-fit">
                             Linha de Produtos // Bomba Helicoidal
                         </div>
                         <h1 className="font-heading text-4xl sm:text-5xl font-extrabold tracking-tighter leading-[1.05]">
@@ -110,7 +110,7 @@ export default function BombaHelicoidal() {
                                     e.preventDefault();
                                     document.getElementById('especificacoes-tecnicas')?.scrollIntoView({ behavior: 'smooth' });
                                 }}
-                                className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-orange hover:bg-brand-orange-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
+                                className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
                             >
                                 Ver Especificações
                                 <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
@@ -176,9 +176,9 @@ export default function BombaHelicoidal() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: i * 0.05 }}
-                                className="flex items-center gap-3 p-5 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-colors"
+                                className="flex items-center gap-3 p-5 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-colors"
                             >
-                                <CheckCircle size={20} className="text-brand-orange shrink-0" />
+                                <CheckCircle size={20} className="text-brand-blue shrink-0" />
                                 <span className="text-sm text-black leading-tight">{texto}</span>
                             </motion.div>
                         ))}
@@ -214,9 +214,9 @@ export default function BombaHelicoidal() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: i * 0.05 }}
-                                className="flex items-center gap-3 p-5 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-colors"
+                                className="flex items-center gap-3 p-5 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-colors"
                             >
-                                <CheckCircle size={20} className="text-brand-orange shrink-0" />
+                                <CheckCircle size={20} className="text-brand-blue shrink-0" />
                                 <span className="text-sm text-black leading-tight">{texto}</span>
                             </motion.div>
                         ))}
@@ -233,7 +233,7 @@ export default function BombaHelicoidal() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
                     >
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Sobre a Bomba Helicoidal
                         </span>
                         <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6">
@@ -260,13 +260,13 @@ export default function BombaHelicoidal() {
                         transition={{ duration: 0.6, delay: 0.1 }}
                         className="bg-white border border-gray-200 rounded-lg p-6"
                     >
-                        <h3 className="font-heading text-sm font-bold uppercase tracking-wider mb-6 text-brand-orange">
+                        <h3 className="font-heading text-sm font-bold uppercase tracking-wider mb-6 text-brand-blue">
                             Especificações Técnicas
                         </h3>
                         <div className="grid grid-cols-2 gap-4">
                             {specs.map((spec, i) => (
                                 <div key={i} className="flex flex-col gap-2 p-4 bg-white border border-gray-200 rounded-lg">
-                                    <div className="text-brand-orange">{spec.icon}</div>
+                                    <div className="text-brand-blue">{spec.icon}</div>
                                     <span className="text-[10px] uppercase tracking-wider text-gray-600 font-mono">{spec.label}</span>
                                     <span className="text-sm font-heading font-bold">{spec.value}</span>
                                 </div>
@@ -292,7 +292,7 @@ export default function BombaHelicoidal() {
                         transition={{ duration: 0.6 }}
                         className="text-center mb-12"
                     >
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Características Positivas
                         </span>
                         <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
@@ -311,9 +311,9 @@ export default function BombaHelicoidal() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: i * 0.05 }}
-                                className="p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-colors"
+                                className="p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-colors"
                             >
-                                <div className="text-brand-orange mb-3">{item.icon}</div>
+                                <div className="text-brand-blue mb-3">{item.icon}</div>
                                 <h3 className="font-heading text-sm font-bold mb-2 leading-tight">{item.titulo}</h3>
                                 <p className="text-xs text-gray-600 leading-relaxed">{item.desc}</p>
                             </motion.div>
@@ -332,7 +332,7 @@ export default function BombaHelicoidal() {
                         transition={{ duration: 0.6 }}
                         className="text-center mb-12"
                     >
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Materiais de Fabricação
                         </span>
                         <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
@@ -363,9 +363,9 @@ export default function BombaHelicoidal() {
                                 transition={{ duration: 0.5, delay: i * 0.05 }}
                                 className="p-6 bg-white border border-gray-200 rounded-lg"
                             >
-                                <div className="text-brand-orange mb-3">{item.icon}</div>
+                                <div className="text-brand-blue mb-3">{item.icon}</div>
                                 <h3 className="font-heading text-sm font-bold mb-1">{item.categoria}</h3>
-                                <p className="text-sm font-heading font-bold text-brand-orange mb-2">{item.itens}</p>
+                                <p className="text-sm font-heading font-bold text-brand-blue mb-2">{item.itens}</p>
                                 <p className="text-xs text-gray-600 leading-relaxed">{item.desc}</p>
                             </motion.div>
                         ))}
@@ -383,7 +383,7 @@ export default function BombaHelicoidal() {
                         transition={{ duration: 0.6 }}
                         className="text-center mb-12"
                     >
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Principais Aplicações
                         </span>
                         <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
@@ -399,9 +399,9 @@ export default function BombaHelicoidal() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: i * 0.05 }}
-                                className="flex flex-col items-center gap-3 p-5 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-colors"
+                                className="flex flex-col items-center gap-3 p-5 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-colors"
                             >
-                                <div className="text-brand-orange">{item.icon}</div>
+                                <div className="text-brand-blue">{item.icon}</div>
                                 <span className="text-xs font-heading font-bold text-center leading-tight">{item.nome}</span>
                             </motion.div>
                         ))}
@@ -419,7 +419,7 @@ export default function BombaHelicoidal() {
                         transition={{ duration: 0.6 }}
                         className="text-center mb-12"
                     >
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Diferenciais Voltic
                         </span>
                         <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
@@ -435,9 +435,9 @@ export default function BombaHelicoidal() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: i * 0.05 }}
-                                className="p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-colors"
+                                className="p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-colors"
                             >
-                                <CheckCircle size={24} className="text-brand-orange mb-3" />
+                                <CheckCircle size={24} className="text-brand-blue mb-3" />
                                 <h3 className="font-heading text-sm font-bold mb-2 leading-tight">{item.titulo}</h3>
                                 <p className="text-xs text-gray-600 leading-relaxed">{item.desc}</p>
                             </motion.div>
@@ -456,7 +456,7 @@ export default function BombaHelicoidal() {
                         transition={{ duration: 0.6 }}
                         className="text-center mb-8"
                     >
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Precauções
                         </span>
                         <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4">
@@ -474,7 +474,7 @@ export default function BombaHelicoidal() {
                                 transition={{ duration: 0.5, delay: i * 0.05 }}
                                 className="p-6 bg-white border border-gray-200 rounded-lg"
                             >
-                                <Warning size={24} className="text-brand-orange mb-3" />
+                                <Warning size={24} className="text-brand-blue mb-3" />
                                 <h3 className="font-heading text-sm font-bold mb-2 leading-tight">{item.titulo}</h3>
                                 <p className="text-xs text-gray-600 leading-relaxed">{item.desc}</p>
                             </motion.div>
@@ -493,7 +493,7 @@ export default function BombaHelicoidal() {
                         transition={{ duration: 0.6 }}
                         className="text-center mb-12"
                     >
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Acessórios
                         </span>
                         <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
@@ -512,9 +512,9 @@ export default function BombaHelicoidal() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: i * 0.05 }}
-                                className="p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-colors"
+                                className="p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-colors"
                             >
-                                <div className="text-brand-orange mb-3">{item.icon}</div>
+                                <div className="text-brand-blue mb-3">{item.icon}</div>
                                 <h3 className="font-heading text-sm font-bold mb-2 leading-tight">{item.titulo}</h3>
                                 <p className="text-xs text-gray-600 leading-relaxed">{item.desc}</p>
                             </motion.div>
@@ -543,7 +543,7 @@ export default function BombaHelicoidal() {
                             href="https://wa.me/554733002250"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-orange hover:bg-brand-orange-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
+                            className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
                         >
                             <WhatsappLogo size={16} />
                             Fale Conosco

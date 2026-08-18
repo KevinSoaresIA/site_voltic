@@ -71,14 +71,14 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-0.5">
           <Link
             to="/"
-            className={`px-4 py-2 text-sm font-heading font-medium transition-colors ${isActive("/") ? "text-brand-orange" : "text-brand-text hover:text-brand-orange"
+            className={`px-4 py-2 text-sm font-heading font-medium transition-colors ${isActive("/") ? "text-brand-blue-bright" : "text-brand-text hover:text-brand-blue-bright"
               }`}
           >
             Home
           </Link>
           <Link
             to="/quemsomos"
-            className={`px-4 py-2 text-sm font-heading font-medium transition-colors ${isActive("/quemsomos") ? "text-brand-orange" : "text-brand-text hover:text-brand-orange"
+            className={`px-4 py-2 text-sm font-heading font-medium transition-colors ${isActive("/quemsomos") ? "text-brand-blue-bright" : "text-brand-text hover:text-brand-blue-bright"
               }`}
           >
             Quem Somos
@@ -88,7 +88,7 @@ export default function Navbar() {
           <div className="relative">
             <button
               onClick={() => toggleDropdown("produtos")}
-              className={`flex items-center gap-1 px-4 py-2 text-sm font-heading font-medium transition-colors ${activeDropdown === "produtos" ? "text-brand-orange" : "text-brand-text hover:text-brand-orange"
+              className={`flex items-center gap-1 px-4 py-2 text-sm font-heading font-medium transition-colors ${activeDropdown === "produtos" ? "text-brand-blue-bright" : "text-brand-text hover:text-brand-blue-bright"
                 }`}
             >
               Produtos
@@ -110,7 +110,7 @@ export default function Navbar() {
                     <Link
                       key={i}
                       to={item.rota}
-                      className="block px-4 py-2.5 text-sm text-brand-text hover:bg-brand-orange/10 hover:text-brand-orange transition-colors border-b border-brand-border/40 [&:nth-last-child(-n+2)]:border-b-0 odd:border-r odd:border-r-brand-border/40"
+                      className="block px-4 py-2.5 text-sm text-brand-text hover:bg-brand-blue-bright/10 hover:text-brand-blue-bright transition-colors border-b border-brand-border/40 [&:nth-last-child(-n+2)]:border-b-0 odd:border-r odd:border-r-brand-border/40"
                     >
                       {item.nome}
                     </Link>
@@ -122,21 +122,21 @@ export default function Navbar() {
 
           <Link
             to="/servicos"
-            className={`px-4 py-2 text-sm font-heading font-medium transition-colors ${isActive("/servicos") ? "text-brand-orange" : "text-brand-text hover:text-brand-orange"
+            className={`px-4 py-2 text-sm font-heading font-medium transition-colors ${isActive("/servicos") ? "text-brand-blue-bright" : "text-brand-text hover:text-brand-blue-bright"
               }`}
           >
             Serviços
           </Link>
           <Link
             to="/contato"
-            className={`px-4 py-2 text-sm font-heading font-medium transition-colors ${isActive("/contato") ? "text-brand-orange" : "text-brand-text hover:text-brand-orange"
+            className={`px-4 py-2 text-sm font-heading font-medium transition-colors ${isActive("/contato") ? "text-brand-blue-bright" : "text-brand-text hover:text-brand-blue-bright"
               }`}
           >
             Contato
           </Link>
           <Link
             to="/trabalheconosco"
-            className={`px-4 py-2 text-sm font-heading font-medium transition-colors ${isActive("/trabalheconosco") ? "text-brand-orange" : "text-brand-text hover:text-brand-orange"
+            className={`px-4 py-2 text-sm font-heading font-medium transition-colors ${isActive("/trabalheconosco") ? "text-brand-blue-bright" : "text-brand-text hover:text-brand-blue-bright"
               }`}
           >
             Trabalhe Conosco
@@ -149,14 +149,14 @@ export default function Navbar() {
             href="https://wa.me/554733002250"
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:flex items-center gap-2 px-4 py-2 bg-brand-orange hover:bg-brand-orange-hover text-white text-sm font-heading font-semibold rounded transition-colors"
+            className="hidden sm:flex items-center gap-2 px-4 py-2 bg-brand-blue hover:bg-brand-blue-hover text-white text-sm font-heading font-semibold rounded transition-colors"
           >
             <WhatsappLogo size={16} />
             Fale Conosco
           </a>
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden p-2 text-brand-text hover:text-brand-orange transition-colors"
+            className="lg:hidden p-2 text-brand-text hover:text-brand-blue-bright transition-colors"
           >
             {mobileOpen ? <X size={24} /> : <List size={24} />}
           </button>
@@ -174,10 +174,10 @@ export default function Navbar() {
             className="lg:hidden bg-brand-bg border-t border-brand-border overflow-hidden"
           >
             <div className="px-6 py-4 flex flex-col gap-0.5 max-h-[80vh] overflow-y-auto">
-              <Link to="/" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-orange">
+              <Link to="/" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
                 Home
               </Link>
-              <Link to="/quemsomos" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-orange">
+              <Link to="/quemsomos" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
                 Quem Somos
               </Link>
 
@@ -198,7 +198,7 @@ export default function Navbar() {
                     <Link
                       key={i}
                       to={item.rota}
-                      className="py-2 text-xs text-brand-muted hover:text-brand-orange transition-colors"
+                      className="py-2 text-xs text-brand-muted hover:text-brand-blue-bright transition-colors"
                     >
                       {item.nome}
                     </Link>
@@ -206,13 +206,13 @@ export default function Navbar() {
                 </div>
               )}
 
-              <Link to="/servicos" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-orange">
+              <Link to="/servicos" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
                 Serviços
               </Link>
-              <Link to="/contato" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-orange">
+              <Link to="/contato" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
                 Contato
               </Link>
-              <Link to="/trabalheconosco" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-orange">
+              <Link to="/trabalheconosco" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
                 Trabalhe Conosco
               </Link>
 
@@ -220,7 +220,7 @@ export default function Navbar() {
                 href="https://wa.me/554733002250"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 mt-3 px-4 py-3 bg-brand-orange text-white text-sm font-heading font-semibold rounded"
+                className="flex items-center justify-center gap-2 mt-3 px-4 py-3 bg-brand-blue hover:bg-brand-blue-hover text-white text-sm font-heading font-semibold rounded"
               >
                 <WhatsappLogo size={16} />
                 Fale Conosco

@@ -62,7 +62,7 @@ export default function PecasReposicao() {
                         className="lg:col-span-7 flex flex-col gap-6"
                     >
                         <Breadcrumb current="Peças de Reposição" />
-                        <div className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20 w-fit">
+                        <div className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-white bg-white/10 px-3 py-1.5 rounded-full border border-white/20 w-fit">
                             Linha de Produtos // Peças de Reposição
                         </div>
                         <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tighter leading-[0.95]">
@@ -76,7 +76,7 @@ export default function PecasReposicao() {
                         <div className="flex flex-col sm:flex-row gap-4 mt-2">
                             <a
                                 href="#componentes"
-                                className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-orange hover:bg-brand-orange-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
+                                className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
                             >
                                 Ver Componentes
                                 <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
@@ -98,17 +98,17 @@ export default function PecasReposicao() {
                             initial={{ opacity: 0, scale: 0.95 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-                            className="relative w-full max-w-[450px] aspect-square rounded-lg border border-brand-border bg-brand-card/50 flex flex-col items-center justify-center p-8 overflow-hidden group hover:border-brand-orange/30 transition-colors duration-300"
+                            className="relative w-full max-w-[450px] aspect-square rounded-lg border border-brand-border bg-brand-card/50 flex flex-col items-center justify-center p-8 overflow-hidden group hover:border-brand-blue/30 transition-colors duration-300"
                         >
                             {/* ASSET: reposicao-hero.jpg */}
-                            <div className="absolute inset-0 bg-gradient-to-tr from-brand-orange/5 to-transparent opacity-50"></div>
+                            <div className="absolute inset-0 bg-gradient-to-tr from-brand-blue/5 to-transparent opacity-50"></div>
                             <div className="absolute top-4 left-4 font-mono text-[9px] text-brand-muted/40 uppercase tracking-widest">
                                 PEÇAS // ORIGINAIS VOLTIC
                             </div>
                             <div className="absolute bottom-4 right-4 font-mono text-[9px] text-brand-muted/40 uppercase tracking-widest">
                                 ESTOQUE // PRONTA ENTREGA
                             </div>
-                            <div className="w-20 h-20 rounded-lg border border-brand-muted/30 flex items-center justify-center mb-4 group-hover:border-brand-orange/40 transition-colors duration-300">
+                            <div className="w-20 h-20 rounded-lg border border-brand-muted/30 flex items-center justify-center mb-4 group-hover:border-brand-blue/40 transition-colors duration-300">
                                 <Package size={32} className="text-brand-muted/50" />
                             </div>
                             <span className="font-heading text-sm font-bold tracking-wider text-brand-text uppercase text-center block">
@@ -137,7 +137,7 @@ export default function PecasReposicao() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
                     >
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Sobre as Peças de Reposição
                         </span>
                         <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6">
@@ -173,7 +173,7 @@ export default function PecasReposicao() {
                         transition={{ duration: 0.6 }}
                         className="text-center mb-12"
                     >
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Componentes Disponíveis
                         </span>
                         <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
@@ -192,9 +192,9 @@ export default function PecasReposicao() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: i * 0.06 }}
-                                className="group p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-colors"
+                                className="group p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-colors"
                             >
-                                <div className="p-2.5 w-fit rounded border border-gray-200 text-brand-orange group-hover:bg-brand-orange/10 group-hover:border-brand-orange/30 transition-all duration-300 mb-3">
+                                <div className="p-2.5 w-fit rounded border border-gray-200 text-brand-blue group-hover:bg-brand-blue/10 group-hover:border-brand-blue/30 transition-all duration-300 mb-3">
                                     {item.icon}
                                 </div>
                                 <h3 className="font-heading text-base font-bold tracking-tight mb-2">{item.titulo}</h3>
@@ -218,7 +218,7 @@ export default function PecasReposicao() {
                         transition={{ duration: 0.6 }}
                         className="text-center mb-12"
                     >
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Por que comprar peças originais
                         </span>
                         <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
@@ -234,9 +234,9 @@ export default function PecasReposicao() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: i * 0.06 }}
-                                className="p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-colors"
+                                className="p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-colors"
                             >
-                                <div className="text-brand-orange mb-3">{item.icon}</div>
+                                <div className="text-brand-blue mb-3">{item.icon}</div>
                                 <h3 className="font-heading text-sm font-bold mb-2 leading-tight">{item.titulo}</h3>
                                 <p className="text-xs text-gray-600 leading-relaxed">{item.desc}</p>
                             </motion.div>
@@ -265,7 +265,7 @@ export default function PecasReposicao() {
                             href="https://wa.me/554733002250"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-orange hover:bg-brand-orange-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
+                            className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
                         >
                             <WhatsappLogo size={16} />
                             Fale Conosco

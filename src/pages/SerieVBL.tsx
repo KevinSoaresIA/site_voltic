@@ -46,7 +46,7 @@ export default function SerieVBL() {
                         className="flex flex-col gap-6"
                     >
                         <Breadcrumb current="Série VBL" />
-                        <div className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20 w-fit">
+                        <div className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-white bg-white/10 px-3 py-1.5 rounded-full border border-white/20 w-fit">
                             Linha de Produtos // Série VBL
                         </div>
                         <h1 className="font-heading text-4xl sm:text-5xl font-extrabold tracking-tighter leading-[1.05]">
@@ -58,7 +58,7 @@ export default function SerieVBL() {
                         <div className="flex flex-col sm:flex-row gap-4 mt-2">
                             <a
                                 href="#especificacoes"
-                                className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-orange hover:bg-brand-orange-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
+                                className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
                             >
                                 Ver Especificações
                                 <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
@@ -92,7 +92,7 @@ export default function SerieVBL() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
                     >
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Sobre a Série VBL
                         </span>
                         <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6">
@@ -120,13 +120,13 @@ export default function SerieVBL() {
                         transition={{ duration: 0.6, delay: 0.1 }}
                         className="bg-white border border-gray-200 rounded-lg p-6"
                     >
-                        <h3 className="font-heading text-sm font-bold uppercase tracking-wider mb-6 text-brand-orange">
+                        <h3 className="font-heading text-sm font-bold uppercase tracking-wider mb-6 text-brand-blue">
                             Especificações Técnicas
                         </h3>
                         <div className="grid grid-cols-2 gap-4">
                             {specs.map((spec, i) => (
                                 <div key={i} className="flex flex-col gap-2 p-4 bg-white border border-gray-200 rounded-lg">
-                                    <div className="text-brand-orange">{spec.icon}</div>
+                                    <div className="text-brand-blue">{spec.icon}</div>
                                     <span className="text-[10px] uppercase tracking-wider text-gray-600 font-mono">{spec.label}</span>
                                     <span className="text-sm font-heading font-bold">{spec.value}</span>
                                 </div>
@@ -146,7 +146,7 @@ export default function SerieVBL() {
                         transition={{ duration: 0.6 }}
                         className="text-center mb-12"
                     >
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Construção e Materiais
                         </span>
                         <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
@@ -167,7 +167,7 @@ export default function SerieVBL() {
                         >
                             <img src={serieVblDireita} alt="Série VBL vista direita" className="absolute inset-0 w-full h-full object-cover opacity-20" />
                             <div className="relative z-10">
-                                <Gear size={32} className="text-brand-orange mb-4" />
+                                <Gear size={32} className="text-brand-blue mb-4" />
                                 <h3 className="font-heading text-sm font-bold mb-2">Componentes Sanitários</h3>
                                 <p className="text-xs text-gray-600 leading-relaxed">
                                     Componentes em contato com o fluido em Aço Inoxidável 316L. Componentes sem contato em Aço Inoxidável 304.
@@ -184,7 +184,7 @@ export default function SerieVBL() {
                         >
                             <img src={serieVblCorte} alt="Série VBL corte técnico" className="absolute inset-0 w-full h-full object-cover opacity-20" />
                             <div className="relative z-10">
-                                <CheckCircle size={32} className="text-brand-orange mb-4" />
+                                <CheckCircle size={32} className="text-brand-blue mb-4" />
                                 <h3 className="font-heading text-sm font-bold mb-2">Acabamento Superficial</h3>
                                 <p className="text-xs text-gray-600 leading-relaxed">
                                     Acabamento de 32 Ra (micro polegadas) em todos os componentes em contato com o fluido.
@@ -201,7 +201,7 @@ export default function SerieVBL() {
                         >
                             <img src={serieVblEsquerda} alt="Série VBL vista esquerda" className="absolute inset-0 w-full h-full object-cover opacity-20" />
                             <div className="relative z-10">
-                                <Medal size={32} className="text-brand-orange mb-4" />
+                                <Medal size={32} className="text-brand-blue mb-4" />
                                 <h3 className="font-heading text-sm font-bold mb-2">Certificação 3-A</h3>
                                 <p className="text-xs text-gray-600 leading-relaxed">
                                     Certificado nº 1004 sob o padrão 02-11 — Padrões sanitários para bombas de deslocamento positivo para manuseio de produtos lácteos.
@@ -222,7 +222,7 @@ export default function SerieVBL() {
                         transition={{ duration: 0.6 }}
                         className="text-center mb-12"
                     >
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Principais Aplicações
                         </span>
                         <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
@@ -238,9 +238,9 @@ export default function SerieVBL() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: i * 0.05 }}
-                                className="flex flex-col items-center gap-3 p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-colors"
+                                className="flex flex-col items-center gap-3 p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-colors"
                             >
-                                <div className="text-brand-orange">{item.icon}</div>
+                                <div className="text-brand-blue">{item.icon}</div>
                                 <span className="text-sm font-heading font-bold text-center">{item.nome}</span>
                             </motion.div>
                         ))}
@@ -258,7 +258,7 @@ export default function SerieVBL() {
                         transition={{ duration: 0.6 }}
                         className="text-center mb-12"
                     >
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Por que escolher a VBL
                         </span>
                         <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
@@ -274,9 +274,9 @@ export default function SerieVBL() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: i * 0.05 }}
-                                className="p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-colors"
+                                className="p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-colors"
                             >
-                                <CheckCircle size={24} className="text-brand-orange mb-3" />
+                                <CheckCircle size={24} className="text-brand-blue mb-3" />
                                 <h3 className="font-heading text-sm font-bold mb-2 leading-tight">{item.titulo}</h3>
                                 <p className="text-xs text-gray-600 leading-relaxed">{item.desc}</p>
                             </motion.div>
@@ -305,7 +305,7 @@ export default function SerieVBL() {
                             href="https://wa.me/554733002250"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-orange hover:bg-brand-orange-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
+                            className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
                         >
                             <WhatsappLogo size={16} />
                             Fale Conosco

@@ -30,7 +30,7 @@ export function SectionNav({ items }: { items: NavItem[] }) {
               key={item.id}
               href={`#${item.id}`}
               className={`shrink-0 px-3.5 py-1.5 rounded-full font-mono text-[11px] uppercase tracking-wider whitespace-nowrap transition-colors ${active === item.id
-                ? "bg-brand-orange text-white"
+                ? "bg-brand-blue text-white"
                 : "text-gray-600 hover:bg-gray-100"
                 }`}
             >

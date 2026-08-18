@@ -62,7 +62,7 @@ export default function QuemSomos() {
       {/* 1. HERO */}
       <section className="relative min-h-[50vh] md:min-h-[60vh] flex items-center justify-center overflow-hidden pt-12 md:pt-16 pb-20 px-6 border-b border-brand-border">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
-        <div className="absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-brand-orange/5 rounded-full filter blur-[80px] pointer-events-none"></div>
+        <div className="absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-brand-blue/5 rounded-full filter blur-[80px] pointer-events-none"></div>
 
         <div className="max-w-[1400px] w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
           <div className="lg:col-span-7 flex flex-col items-start gap-6">
@@ -70,7 +70,7 @@ export default function QuemSomos() {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-              className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange bg-brand-orange/10 px-3 py-1.5 rounded-full border border-brand-orange/20"
+              className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-white bg-white/10 px-3 py-1.5 rounded-full border border-white/20"
             >
               Institucional // Quem Somos
             </motion.div>
@@ -101,10 +101,10 @@ export default function QuemSomos() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-              className="relative w-full max-w-[400px] aspect-[4/3] rounded-lg border border-brand-border bg-brand-card/50 flex flex-col items-center justify-center p-8 overflow-hidden group hover:border-brand-orange/30 transition-colors duration-300"
+              className="relative w-full max-w-[400px] aspect-[4/3] rounded-lg border border-brand-border bg-brand-card/50 flex flex-col items-center justify-center p-8 overflow-hidden group hover:border-brand-blue/30 transition-colors duration-300"
             >
               <img src={volticEmpresaLocal} alt="Sede Industrial Voltic - Rio dos Cedros, SC" className="absolute inset-0 w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-tr from-brand-orange/10 to-transparent opacity-50"></div>
+              <div className="absolute inset-0 bg-gradient-to-tr from-brand-blue/10 to-transparent opacity-50"></div>
             </motion.div>
           </div>
         </div>
@@ -119,10 +119,10 @@ export default function QuemSomos() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-              className="relative w-full aspect-[4/3] rounded-lg border border-gray-200 bg-white flex flex-col items-center justify-center p-8 overflow-hidden group hover:border-brand-orange/30 transition-colors duration-300"
+              className="relative w-full aspect-[4/3] rounded-lg border border-gray-200 bg-white flex flex-col items-center justify-center p-8 overflow-hidden group hover:border-brand-blue/30 transition-colors duration-300"
             >
               <img src={apertoDeMaoNegociacao} alt="Voltic - relacionamento e negociação com clientes" className="absolute inset-0 w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-tr from-brand-orange/10 to-transparent opacity-50"></div>
+              <div className="absolute inset-0 bg-gradient-to-tr from-brand-blue/10 to-transparent opacity-50"></div>
             </motion.div>
           </div>
 
@@ -173,7 +173,7 @@ export default function QuemSomos() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-              className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-orange"
+              className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue"
             >
               Pilares da Empresa
             </motion.span>
@@ -195,10 +195,10 @@ export default function QuemSomos() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="p-8 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/20 transition-colors"
+              className="p-8 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/20 transition-colors"
             >
               <div className="flex items-center gap-3 mb-4">
-                <div className="p-3 bg-brand-orange/10 rounded border border-brand-orange/20 text-brand-orange">
+                <div className="p-3 bg-brand-blue/10 rounded border border-brand-blue/20 text-brand-blue">
                   <Target size={24} />
                 </div>
                 <h3 className="font-heading text-xl font-bold tracking-tight text-black">Missão</h3>
@@ -215,10 +215,10 @@ export default function QuemSomos() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="p-8 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/20 transition-colors"
+              className="p-8 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/20 transition-colors"
             >
               <div className="flex items-center gap-3 mb-4">
-                <div className="p-3 bg-brand-orange/10 rounded border border-brand-orange/20 text-brand-orange">
+                <div className="p-3 bg-brand-blue/10 rounded border border-brand-blue/20 text-brand-blue">
                   <Eye size={24} />
                 </div>
                 <h3 className="font-heading text-xl font-bold tracking-tight text-black">Visão</h3>
@@ -240,12 +240,12 @@ export default function QuemSomos() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.6, delay: index * 0.08, ease: [0.16, 1, 0.3, 1] }}
-                className="group p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-all duration-300"
+                className="group p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-all duration-300"
               >
-                <div className="p-3 bg-white rounded border border-gray-200 text-brand-orange group-hover:bg-brand-orange/10 group-hover:border-brand-orange/30 transition-all duration-300 w-fit mb-4">
+                <div className="p-3 bg-white rounded border border-gray-200 text-brand-blue group-hover:bg-brand-blue/10 group-hover:border-brand-blue/30 transition-all duration-300 w-fit mb-4">
                   {item.icon}
                 </div>
-                <h3 className="font-heading text-base font-bold tracking-tight text-black mb-2 group-hover:text-brand-orange transition-colors">
+                <h3 className="font-heading text-base font-bold tracking-tight text-black mb-2 group-hover:text-brand-blue transition-colors">
                   {item.titulo}
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
@@ -289,13 +289,13 @@ export default function QuemSomos() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true, amount: 0.1 }}
                   transition={{ duration: 0.6, delay: index * 0.08, ease: [0.16, 1, 0.3, 1] }}
-                  className="group flex gap-5 p-5 bg-white border border-gray-200 rounded-lg hover:border-brand-orange/30 transition-all duration-300"
+                  className="group flex gap-5 p-5 bg-white border border-gray-200 rounded-lg hover:border-brand-blue/30 transition-all duration-300"
                 >
-                  <div className="p-3 bg-white rounded border border-gray-200 text-brand-orange group-hover:bg-brand-orange/10 group-hover:border-brand-orange/30 transition-all duration-300 shrink-0 h-fit">
+                  <div className="p-3 bg-white rounded border border-gray-200 text-brand-blue group-hover:bg-brand-blue/10 group-hover:border-brand-blue/30 transition-all duration-300 shrink-0 h-fit">
                     {item.icon}
                   </div>
                   <div className="flex flex-col gap-1">
-                    <h3 className="font-heading text-base font-bold tracking-tight text-black group-hover:text-brand-orange transition-colors">
+                    <h3 className="font-heading text-base font-bold tracking-tight text-black group-hover:text-brand-blue transition-colors">
                       {item.titulo}
                     </h3>
                     <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
@@ -310,7 +310,7 @@ export default function QuemSomos() {
       {/* 6. CTA FINAL */}
       <section className="py-24 px-6 relative overflow-hidden bg-white text-black">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.035)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.035)_1px,transparent_1px)] bg-[size:6rem_6rem] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none"></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-orange/3 rounded-full filter blur-[150px] pointer-events-none"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-blue/3 rounded-full filter blur-[150px] pointer-events-none"></div>
 
         <div className="max-w-[800px] mx-auto relative z-10 flex flex-col items-center text-center gap-6">
           <motion.h2
@@ -331,7 +331,7 @@ export default function QuemSomos() {
           >
             <Link
               to="/contato"
-              className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-orange hover:bg-brand-orange-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
+              className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
             >
               Falar com um especialista
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />

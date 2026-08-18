@@ -14,7 +14,7 @@ export function Layout() {
   }, [pathname]);
 
   return (
-    <div className="flex flex-col min-h-screen bg-brand-bg text-brand-text selection:bg-brand-orange selection:text-white">
+    <div className="flex flex-col min-h-screen bg-brand-bg text-brand-text selection:bg-brand-blue selection:text-white">
       <Navbar />
 
       {/* Main content with page transition */}
