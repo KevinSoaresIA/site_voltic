@@ -1,5 +1,6 @@
 @import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700;900&family=Archivo+Black&display=swap');
 
 @import "tailwindcss";
 
@@ -8,6 +9,8 @@
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
   --font-heading: "Cabinet Grotesk", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-league-spartan: "League Spartan", sans-serif;
+  --font-archivo-black: "Archivo Black", sans-serif;
 
   --color-brand-bg: #0A0A0A;
   --color-brand-card: #1A1A1A;

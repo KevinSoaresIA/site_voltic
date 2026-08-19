@@ -24,27 +24,27 @@ export default function Home() {
         <img src={bombaMontada} alt="Bomba Helicoidal Voltic" className="absolute inset-0 w-full h-full object-cover" />
 
         {/* BLOCO 1: TÍTULO + SUBTÍTULO NO TOPO ESQUERDO */}
-        <div className="absolute z-10 top-24 left-8 md:top-32 md:left-16 max-w-[90vw] md:max-w-xl">
-          <span className="text-brand-blue-bright text-lg md:text-xl font-bold tracking-widest uppercase mb-3 block">
+        <div className="absolute z-10 top-24 left-8 md:top-32 md:left-16 max-w-[90vw] md:max-w-2xl">
+          <span className="font-league-spartan text-brand-blue text-sm md:text-[20pt] font-black tracking-wide uppercase mb-3 block">
             SISTEMAS DE BOMBEAMENTO INDUSTRIAL
           </span>
-          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white leading-tight drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)]">
+          <h1 className="font-archivo-black text-xl sm:text-2xl md:text-[37pt] text-white leading-[40pt]">
             <span className="block whitespace-nowrap">Sua solução para bombeamento</span>
             <span className="block whitespace-nowrap">começa aqui</span>
           </h1>
-          <p className="mt-4 text-sm md:text-base text-gray-100 leading-relaxed max-w-xs md:max-w-sm drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
-            Fabricação, dimensionamento, manutenção e assistência técnica para aplicações industriais complexas.
+          <p className="mt-3 text-xs md:text-[11pt] text-brand-blue font-bold leading-relaxed max-w-xs md:max-w-sm">
+            Fabricação, manutenção e suporte técnico completo para operações industriais
           </p>
         </div>
 
         {/* BLOCO 3: BOTÕES NO CANTO INFERIOR DIREITO */}
         <div className="absolute z-10 bottom-52 right-8 md:bottom-64 md:right-24 flex flex-col sm:flex-row gap-4 items-end">
-          <a href="/bombahelicoidal" className="bg-brand-blue hover:bg-brand-blue-hover text-white font-bold px-6 py-3 rounded-lg transition-colors flex items-center gap-2">
+          <a href="/bombahelicoidal" className="bg-brand-blue hover:bg-brand-blue-hover text-white font-bold px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-[0_0_20px_-2px_rgba(16,46,69,0.5)] flex items-center gap-2">
             Conhecer Produtos
             <span>→</span>
           </a>
-          <a href="https://wa.me/554733002250" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center border border-brand-blue-bright/60 hover:border-brand-blue-bright text-white font-bold px-6 py-3 rounded-lg transition-colors backdrop-blur-sm drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
-            Falar com um especialista
+          <a href="https://wa.me/554733002250" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center border border-brand-blue/60 hover:border-brand-blue text-[#102E45] font-bold px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-[0_0_20px_-2px_rgba(16,46,69,0.5)] backdrop-blur-sm">
+            Falar com especialista
           </a>
         </div>
       </section>
