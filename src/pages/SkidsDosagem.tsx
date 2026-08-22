@@ -6,7 +6,7 @@ import skids1 from "../assets/images/skids-1.jpeg";
 import skids2 from "../assets/images/skids-2.jpeg";
 
 const caracteristicas = [
-    { icon: <Circuitry size={24} />, titulo: "Sistema PLUG & PLAY", desc: "Solução completa e pronta com bomba(s), painel elétrico, tubulações, válvulas e filtros — basta acoplar na linha de injeção e ligar." },
+    { icon: <Circuitry size={24} />, titulo: "Sistema PLUG & PLAY", desc: "Solução completa e pronta com bomba(s), painel elétrico, tubulações, válvulas e filtros. Basta acoplar na linha de injeção e ligar." },
     { icon: <Shield size={24} />, titulo: "Estrutura Modular", desc: "Perfis de aço soldado, revestido com tinta epóxi e poliuretano para proteção. Tubulação em aço inoxidável." },
     { icon: <Leaf size={24} />, titulo: "Proteção Ambiental", desc: "Recipiente anti-derramamento (bacia de contenção) com capacidade superior ao tanque IBC de químico." },
     { icon: <Cube size={24} />, titulo: "Tanque IBC Integrado", desc: "Tanque IBC de químico com plataforma e escada lateral opcional para enchimento." },
@@ -106,8 +106,8 @@ export default function SkidsDosagem() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Sobre os Skids de Dosagem
                         </span>
-                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6">
-                            Soluções completas PLUG & PLAY.
+                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6 [word-spacing:0.2em]">
+                            Soluções completas PLUG & PLAY
                         </h2>
                         <div className="space-y-4 text-sm text-gray-600 leading-relaxed">
                             <p>
@@ -117,7 +117,7 @@ export default function SkidsDosagem() {
                                 Também chamados de soluções <strong className="text-black">PLUG & PLAY</strong>, têm como finalidade proporcionar uma solução completa e pronta com a(s) bomba(s), painel elétrico, tubulações, válvulas e filtros, tanque IBC de químico, medidor de vazão, medidor de nível de químico, com opcionais como válvula de alívio e sistema de monitoramento e controle a distância.
                             </p>
                             <p>
-                                Para acionar as bombas e o sistema de controle, oferecemos diversas formas de energia — inclusive em locais sem disponibilidade de rede elétrica, através de <strong className="text-black">energias renováveis</strong> como painel solar e baterias, sistema híbrido (eólico + solar) ou apenas eólico.
+                                Para acionar as bombas e o sistema de controle, oferecemos diversas formas de energia, inclusive em locais sem disponibilidade de rede elétrica, através de <strong className="text-black">energias renováveis</strong> como painel solar e baterias, sistema híbrido (eólico + solar) ou apenas eólico.
                             </p>
                         </div>
                         <div className="mt-6 rounded-lg border border-gray-200 overflow-hidden">
@@ -140,8 +140,8 @@ export default function SkidsDosagem() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Características Principais
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Estrutura robusta e protegida.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Estrutura robusta e protegida
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[60ch] mx-auto leading-relaxed">
                             Sistema modular construído com perfis de aço soldado, revestido para proteção com tinta epóxi e poliuretano.
@@ -180,8 +180,8 @@ export default function SkidsDosagem() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Formas de Acionamento
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Energia em qualquer cenário.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Energia em qualquer cenário
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[60ch] mx-auto leading-relaxed">
                             Soluções para locais com ou sem disponibilidade de rede elétrica, incluindo energias renováveis.
@@ -219,8 +219,8 @@ export default function SkidsDosagem() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Características e Opcionais
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Automação e controle completos.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Automação e controle completos
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[60ch] mx-auto leading-relaxed">
                             Diversos opcionais para monitoramento, controle, medição e proteção do sistema de dosagem.
@@ -255,7 +255,7 @@ export default function SkidsDosagem() {
                         transition={{ duration: 0.6 }}
                         className="flex flex-col items-center gap-6"
                     >
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter">
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter [word-spacing:0.2em]">
                             Precisa de um Skid sob medida?
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[50ch] leading-relaxed">

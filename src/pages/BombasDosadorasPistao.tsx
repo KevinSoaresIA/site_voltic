@@ -111,8 +111,8 @@ export default function BombasDosadorasPistao() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Sobre as Bombas Dosadoras
                         </span>
-                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6">
-                            Robustez e confiabilidade para dosagem precisa.
+                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6 [word-spacing:0.2em]">
+                            Robustez e confiabilidade para dosagem precisa
                         </h2>
                         <div className="space-y-4 text-sm text-gray-600 leading-relaxed">
                             <p>
@@ -164,8 +164,8 @@ export default function BombasDosadorasPistao() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Características e Opcionais
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Projetadas para máxima performance.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Projetadas para máxima performance
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[60ch] mx-auto leading-relaxed">
                             Diversas opções de acionamento, ajustes e materiais para atender as mais exigentes aplicações industriais.
@@ -204,8 +204,8 @@ export default function BombasDosadorasPistao() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Sistema de Vedações
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Vedação adequada para cada faixa de pressão.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Vedação adequada para cada faixa de pressão
                         </h2>
                     </motion.div>
 
@@ -242,8 +242,8 @@ export default function BombasDosadorasPistao() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Detalhes Técnicos
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Controle preciso de dosagem.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Controle preciso de dosagem
                         </h2>
                     </motion.div>
 
@@ -279,8 +279,8 @@ export default function BombasDosadorasPistao() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Principais Aplicações
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Segmentos atendidos.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Segmentos atendidos
                         </h2>
                     </motion.div>
 
@@ -312,7 +312,7 @@ export default function BombasDosadorasPistao() {
                         transition={{ duration: 0.6 }}
                         className="flex flex-col items-center gap-6"
                     >
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter">
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter [word-spacing:0.2em]">
                             Precisa de uma solução sob medida?
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[50ch] leading-relaxed">

@@ -95,8 +95,8 @@ export default function SerieVBL() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Sobre a Série VBL
                         </span>
-                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6">
-                            Versatilidade para fluidos exigentes.
+                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6 [word-spacing:0.2em]">
+                            Versatilidade para fluidos exigentes
                         </h2>
                         <div className="space-y-4 text-sm text-gray-600 leading-relaxed">
                             <p>
@@ -149,8 +149,8 @@ export default function SerieVBL() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Construção e Materiais
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Engenharia de precisão sanitária.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Engenharia de precisão sanitária
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[60ch] mx-auto leading-relaxed">
                             Cada componente é fabricado com materiais certificados para atender os mais rigorosos padrões sanitários e industriais.
@@ -204,7 +204,7 @@ export default function SerieVBL() {
                                 <Medal size={32} className="text-brand-blue mb-4" />
                                 <h3 className="font-heading text-sm font-bold mb-2">Certificação 3-A</h3>
                                 <p className="text-xs text-gray-600 leading-relaxed">
-                                    Certificado nº 1004 sob o padrão 02-11 — Padrões sanitários para bombas de deslocamento positivo para manuseio de produtos lácteos.
+                                    Certificado nº 1004 sob o padrão 02-11: Padrões sanitários para bombas de deslocamento positivo para manuseio de produtos lácteos.
                                 </p>
                             </div>
                         </motion.div>
@@ -225,8 +225,8 @@ export default function SerieVBL() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Principais Aplicações
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Segmentos atendidos pela Série VBL.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Segmentos atendidos pela Série VBL
                         </h2>
                     </motion.div>
 
@@ -261,8 +261,8 @@ export default function SerieVBL() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Por que escolher a VBL
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Diferenciais da Série VBL.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Diferenciais da Série VBL
                         </h2>
                     </motion.div>
 
@@ -295,7 +295,7 @@ export default function SerieVBL() {
                         transition={{ duration: 0.6 }}
                         className="flex flex-col items-center gap-6"
                     >
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter">
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter [word-spacing:0.2em]">
                             Precisa de uma solução sob medida?
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[50ch] leading-relaxed">

@@ -30,37 +30,37 @@ const produtos = [
     rota: "/produtos/pecas-reposicao",
   },
   {
-    nome: "Série VBC — Bombas Centrífugas",
+    nome: "Série VBC: Bombas Centrífugas",
     desc: "Opção versátil e econômica. Rotor aberto, fluxo radial e carcaça em voluta com sucção no centro.",
     icon: <Recycle size={24} />,
     rota: "/produtos/serie-vbc",
   },
   {
-    nome: "Série VBF — Bombas de Fuso",
+    nome: "Série VBF: Bombas de Fuso",
     desc: "Bombeamento suave graças ao fluxo constante e sem pulsações.",
     icon: <Gauge size={24} />,
     rota: "/produtos/serie-vbf",
   },
   {
-    nome: "Série VBL — Bombas de Lóbulos",
+    nome: "Série VBL: Bombas de Lóbulos",
     desc: "Fácil manutenção e operação simples, ideal para fluidos pastosos e de alta viscosidade.",
     icon: <Wrench size={24} />,
     rota: "/produtos/serie-vbl",
   },
   {
-    nome: "Série VBP — Bombas de Pistão Circunferencial",
+    nome: "Série VBP: Bombas de Pistão Circunferencial",
     desc: "Fácil manutenção e baixo ruído, ideal para fluidos de baixa e alta viscosidade.",
     icon: <Ruler size={24} />,
     rota: "/produtos/serie-vbp",
   },
   {
-    nome: "Série VET — Esvaziador de Tambor",
+    nome: "Série VET: Esvaziador de Tambor",
     desc: "Esvaziamento de tambores com produtos de alta ou baixa viscosidade, com ou sem sólidos.",
     icon: <Drop size={24} />,
     rota: "/produtos/serie-vet",
   },
   {
-    nome: "Série VSM — Sistemas Misturadores",
+    nome: "Série VSM: Sistemas Misturadores",
     desc: "Mistura em linha com três modelos especializados para diferentes aplicações e viscosidades.",
     icon: <Flask size={24} />,
     rota: "/produtos/serie-vsm",
@@ -119,7 +119,7 @@ export default function Produtos() {
             transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
             className="text-base text-brand-muted max-w-[60ch] leading-relaxed mt-4"
           >
-            Da bomba helicoidal de fabricação própria aos sistemas completos de dosagem — conheça toda a linha
+            Da bomba helicoidal de fabricação própria aos sistemas completos de dosagem, conheça toda a linha
             de equipamentos e peças fabricados pela Voltic para aplicações industriais.
           </motion.p>
         </div>
@@ -161,7 +161,7 @@ export default function Produtos() {
       {/* CTA Final */}
       <section className="py-20 px-6 bg-white border-t border-gray-200 text-black">
         <div className="max-w-[800px] mx-auto text-center flex flex-col items-center gap-6">
-          <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter">
+          <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter [word-spacing:0.2em]">
             Não sabe qual equipamento escolher?
           </h2>
           <p className="text-sm text-gray-600 max-w-[50ch] leading-relaxed">

@@ -26,7 +26,7 @@ const cultura = [
   },
   {
     titulo: "Foco em Resolução",
-    desc: "Nosso cliente é indústria — quando o equipamento para, a produção para. Trabalhamos com urgência e responsabilidade.",
+    desc: "Nosso cliente é indústria: quando o equipamento para, a produção para. Trabalhamos com urgência e responsabilidade.",
     icon: <Target size={20} />,
   },
   {
@@ -133,9 +133,9 @@ export default function TrabalheConosco() {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-            className="font-heading text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tighter leading-[0.95] text-gradient"
+            className="font-heading text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tighter leading-[0.95] text-gradient [word-spacing:0.2em]"
           >
-            Faça parte da Voltic.
+            Faça parte da Voltic
           </motion.h1>
 
           <motion.p
@@ -189,9 +189,9 @@ export default function TrabalheConosco() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter text-black"
+              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter text-black [word-spacing:0.2em]"
             >
-              Engenharia que move pessoas.
+              Engenharia que move pessoas
             </motion.h2>
           </div>
 
@@ -236,9 +236,9 @@ export default function TrabalheConosco() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter text-black"
+              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter text-black [word-spacing:0.2em]"
             >
-              Cuidamos do nosso time.
+              Cuidamos do nosso time
             </motion.h2>
           </div>
 
@@ -284,9 +284,9 @@ export default function TrabalheConosco() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter text-black"
+              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter text-black [word-spacing:0.2em]"
             >
-              Posições disponíveis.
+              Posições disponíveis
             </motion.h2>
           </div>
 
@@ -367,8 +367,8 @@ export default function TrabalheConosco() {
               <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue">
                 Formulário de Candidatura
               </span>
-              <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter leading-[1.05] text-black">
-                Envie seu currículo.
+              <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter leading-[1.05] text-black [word-spacing:0.2em]">
+                Envie seu currículo
               </h2>
               <p className="text-sm text-gray-600 leading-relaxed max-w-[50ch]">
                 Preencha os campos abaixo e clique em enviar. Sua candidatura será encaminhada via WhatsApp
@@ -496,8 +496,8 @@ export default function TrabalheConosco() {
               <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue">
                 Departamento de RH
               </span>
-              <h3 className="font-heading text-2xl font-extrabold tracking-tighter leading-[1.05] text-black">
-                Fale com o RH.
+              <h3 className="font-heading text-2xl font-extrabold tracking-tighter leading-[1.05] text-black [word-spacing:0.2em]">
+                Fale com o RH
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Dúvidas sobre vagas ou processo seletivo? Entre em contato pelos canais abaixo.
@@ -567,7 +567,7 @@ export default function TrabalheConosco() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-[1.05] text-black"
+            className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-[1.05] text-black [word-spacing:0.2em]"
           >
             Quer conhecer a Voltic?
           </motion.h2>

@@ -60,7 +60,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter text-black"
+              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter text-black [word-spacing:0.2em]"
             >
               Como podemos ajudar?
             </motion.h2>
@@ -162,9 +162,9 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-[1.05] text-black max-w-[20ch]"
+              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-[1.05] text-black max-w-[20ch] [word-spacing:0.2em]"
             >
-              Engenharia robusta desenvolvida para seus desafios hidráulicos.
+              Engenharia robusta desenvolvida para seus desafios hidráulicos
             </motion.h2>
 
             <motion.p
@@ -222,9 +222,9 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-none text-black"
+              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-none text-black [word-spacing:0.2em]"
             >
-              Soluções robustas para os principais setores.
+              Soluções robustas para os principais setores
             </motion.h2>
 
             <motion.p
@@ -351,9 +351,9 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-[1.05] text-brand-text"
+              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-[1.05] text-brand-text [word-spacing:0.2em]"
             >
-              Oferecemos uma ampla gama de serviços em bombeamento.
+              Oferecemos uma ampla gama de serviços em bombeamento
             </motion.h2>
 
             <motion.p
@@ -467,7 +467,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-2xl sm:text-3xl font-extrabold tracking-tighter text-black uppercase"
+              className="font-heading text-2xl sm:text-3xl font-extrabold tracking-tighter text-black uppercase [word-spacing:0.2em]"
             >
               Empresas que já confiaram em soluções da Voltic
             </motion.h2>

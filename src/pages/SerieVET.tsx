@@ -30,7 +30,7 @@ const beneficios = [
     { titulo: "Baixo Ruído", desc: "Operação silenciosa, proporcionando um ambiente de trabalho mais confortável." },
     { titulo: "Redução de Perdas", desc: "Proporciona redução nas perdas de produtos para as indústrias, aumentando a eficiência do processo." },
     { titulo: "Versatilidade", desc: "Lida com vazões de até 13,6 m³/h, viscosidades de até 1.000.000 cp, pressões de até 20,7 bar e alturas de até 211 metros." },
-    { titulo: "Certificação 3-A", desc: "Certificado nº 1004 — Padrões sanitários para bombas de deslocamento positivo para manuseio de produtos lácteos." },
+    { titulo: "Certificação 3-A", desc: "Certificado nº 1004: Padrões sanitários para bombas de deslocamento positivo para manuseio de produtos lácteos." },
 ];
 
 export default function SerieVET() {
@@ -105,8 +105,8 @@ export default function SerieVET() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Sobre a Série VET
                         </span>
-                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6">
-                            Eficiência no esvaziamento de tambores.
+                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6 [word-spacing:0.2em]">
+                            Eficiência no esvaziamento de tambores
                         </h2>
                         <div className="space-y-4 text-sm text-gray-600 leading-relaxed">
                             <p>
@@ -161,8 +161,8 @@ export default function SerieVET() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Construção e Configuração
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Materiais e opções de bomba.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Materiais e opções de bomba
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[60ch] mx-auto leading-relaxed">
                             Fabricada em aço inoxidável com certificação 3-A, disponível com Bomba Helicoidal ou Bomba de Fusos.
@@ -202,8 +202,8 @@ export default function SerieVET() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Principais Aplicações
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Segmentos atendidos pela Série VET.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Segmentos atendidos pela Série VET
                         </h2>
                     </motion.div>
 
@@ -238,8 +238,8 @@ export default function SerieVET() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Por que escolher a VET
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Diferenciais da Série VET.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Diferenciais da Série VET
                         </h2>
                     </motion.div>
 
@@ -276,8 +276,8 @@ export default function SerieVET() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Certificação 3-A
                         </span>
-                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter">
-                            Padrão 02-11 — Certificado nº 1004
+                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter [word-spacing:0.2em]">
+                            Padrão 02-11: Certificado nº 1004
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[50ch] leading-relaxed">
                             Padrões sanitários para bombas de deslocamento positivo para manuseio de produtos lácteos. Todos os elastômeros cumprem os requisitos da FDA.
@@ -296,7 +296,7 @@ export default function SerieVET() {
                         transition={{ duration: 0.6 }}
                         className="flex flex-col items-center gap-6"
                     >
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter">
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter [word-spacing:0.2em]">
                             Precisa de uma solução sob medida?
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[50ch] leading-relaxed">

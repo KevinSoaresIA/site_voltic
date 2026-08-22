@@ -29,7 +29,7 @@ const contatos = [
   {
     titulo: "Endereço",
     valor: "Acesso leste Rio dos Cedros AE-110A, 4900",
-    sub: "Galpão 2 - Rio dos Cedros - SC — CEP: 89121-000",
+    sub: "Galpão 2 - Rio dos Cedros - SC, CEP: 89121-000",
     link: "#",
     icon: <MapPin size={20} />,
   },
@@ -100,9 +100,9 @@ export default function Contato() {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-            className="font-heading text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tighter leading-[0.95] text-gradient"
+            className="font-heading text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tighter leading-[0.95] text-gradient [word-spacing:0.2em]"
           >
-            Vamos conversar.
+            Vamos conversar
           </motion.h1>
 
           <motion.p
@@ -164,8 +164,8 @@ export default function Contato() {
               <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue">
                 Formulário de Contato
               </span>
-              <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter leading-[1.05] text-black">
-                Envie sua solicitação.
+              <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter leading-[1.05] text-black [word-spacing:0.2em]">
+                Envie sua solicitação
               </h2>
               <p className="text-sm text-gray-600 leading-relaxed max-w-[50ch]">
                 Preencha os campos abaixo e clique em enviar. Sua mensagem será encaminhada via WhatsApp
@@ -377,7 +377,7 @@ export default function Contato() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-[1.05] text-black"
+            className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-[1.05] text-black [word-spacing:0.2em]"
           >
             Prefere ver os equipamentos primeiro?
           </motion.h2>

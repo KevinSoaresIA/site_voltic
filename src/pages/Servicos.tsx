@@ -119,9 +119,9 @@ export default function Servicos() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tighter leading-[0.95] text-gradient"
+              className="font-heading text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tighter leading-[0.95] text-gradient [word-spacing:0.2em]"
             >
-              Do projeto ao pós-venda.
+              Do projeto ao pós-venda
             </motion.h1>
 
             <motion.p
@@ -130,7 +130,7 @@ export default function Servicos() {
               transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
               className="text-base md:text-lg text-brand-muted leading-relaxed max-w-[55ch]"
             >
-              Não vendemos apenas equipamentos — entregamos soluções completas de bombeamento industrial.
+              Não vendemos apenas equipamentos. Entregamos soluções completas de bombeamento industrial.
               Da fabricação sob medida à manutenção preventiva, nossa equipe acompanha cada etapa para garantir
               que sua operação nunca pare.
             </motion.p>
@@ -215,9 +215,9 @@ export default function Servicos() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter text-black"
+              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter text-black [word-spacing:0.2em]"
             >
-              Suporte em cada etapa.
+              Suporte em cada etapa
             </motion.h2>
           </div>
 
@@ -273,9 +273,9 @@ export default function Servicos() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter text-black"
+              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter text-black [word-spacing:0.2em]"
             >
-              Processo em 4 etapas.
+              Processo em 4 etapas
             </motion.h2>
           </div>
 
@@ -333,9 +333,9 @@ export default function Servicos() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-                className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter leading-[1.05] text-black mb-4"
+                className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter leading-[1.05] text-black mb-4 [word-spacing:0.2em]"
               >
-                O que você pode cobrar da gente.
+                O que você pode cobrar da gente
               </motion.h2>
               <motion.p
                 initial={{ opacity: 0, y: 15 }}
@@ -345,7 +345,7 @@ export default function Servicos() {
                 className="text-sm text-gray-600 leading-relaxed"
               >
                 Quando o equipamento para, a produção para. Por isso nosso suporte é estruturado para responder
-                rápido e resolver de vez — com peças originais, equipe especializada e garantia de fábrica.
+                rápido e resolver de vez, com peças originais, equipe especializada e garantia de fábrica.
               </motion.p>
             </div>
 
@@ -386,7 +386,7 @@ export default function Servicos() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-[1.05] text-black"
+            className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-[1.05] text-black [word-spacing:0.2em]"
           >
             Seu equipamento precisa de suporte?
           </motion.h2>

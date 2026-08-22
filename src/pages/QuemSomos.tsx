@@ -79,9 +79,9 @@ export default function QuemSomos() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tighter leading-[0.95] text-gradient"
+              className="font-heading text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tighter leading-[0.95] text-gradient [word-spacing:0.2em]"
             >
-              Engenharia de bombeamento com DNA brasileiro.
+              Engenharia de bombeamento com DNA brasileiro
             </motion.h1>
 
             <motion.p
@@ -132,9 +132,9 @@ export default function QuemSomos() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-[1.05] text-black"
+              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-[1.05] text-black [word-spacing:0.2em]"
             >
-              Engenharia aplicada às necessidades da indústria brasileira.
+              Engenharia aplicada às necessidades da indústria brasileira
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 15 }}
@@ -155,8 +155,8 @@ export default function QuemSomos() {
               transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
               className="text-base text-gray-600 leading-relaxed"
             >
-              Nosso diferencial é a engenharia aplicada: não vendemos catálogo, vendemos soluções.
-              Cada bomba que sai da nossa fábrica é projetada ou adaptada para a realidade do cliente — o fluido,
+              Nosso diferencial é a engenharia aplicada. Não vendemos catálogo, vendemos soluções.
+              Cada bomba que sai da nossa fábrica é projetada ou adaptada para a realidade do cliente, o fluido,
               a temperatura, a pressão, o ambiente. É assim que trabalhamos e é assim que continuaremos.
             </motion.p>
           </div>
@@ -182,9 +182,9 @@ export default function QuemSomos() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter text-black"
+              className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter text-black [word-spacing:0.1em]"
             >
-              O que nos move.
+              O que nos move:
             </motion.h2>
           </div>
 
@@ -265,9 +265,9 @@ export default function QuemSomos() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-                className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter leading-[1.05] text-black mb-4"
+                className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter leading-[1.05] text-black mb-4 [word-spacing:0.2em]"
               >
-                Por que a indústria escolhe Voltic.
+                Por que a indústria escolhe Voltic
               </motion.h2>
               <motion.p
                 initial={{ opacity: 0, y: 15 }}
@@ -318,7 +318,7 @@ export default function QuemSomos() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-[1.05] text-black"
+            className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter leading-[1.05] text-black [word-spacing:0.2em]"
           >
             Vamos resolver seu desafio de bombeamento?
           </motion.h2>

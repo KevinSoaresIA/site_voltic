@@ -77,7 +77,7 @@ const acessoriosDisponiveis = [
 ];
 
 const precaucoes = [
-    { titulo: "Não operar sem fluido", desc: "Tempo limitado — risco de sobreaquecimento." },
+    { titulo: "Não operar sem fluido", desc: "Tempo limitado: risco de sobreaquecimento." },
     { titulo: "Não operar contra registro fechado", desc: "Pode causar danos ao equipamento." },
 ];
 
@@ -157,7 +157,7 @@ export default function BombaHelicoidal() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="font-heading text-2xl sm:text-3xl font-extrabold tracking-tighter mb-8 text-center"
+                        className="font-heading text-2xl sm:text-3xl font-extrabold tracking-tighter mb-8 text-center [word-spacing:0.2em]"
                     >
                         Quando considerar uma bomba helicoidal?
                     </motion.h2>
@@ -194,9 +194,9 @@ export default function BombaHelicoidal() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="font-heading text-2xl sm:text-3xl font-extrabold tracking-tighter mb-8 text-center"
+                        className="font-heading text-2xl sm:text-3xl font-extrabold tracking-tighter mb-8 text-center [word-spacing:0.2em]"
                     >
-                        Esta bomba é indicada quando você precisa bombear:
+                        Esta bomba é indicada quando você precisa bombear
                     </motion.h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                         {[
@@ -236,8 +236,8 @@ export default function BombaHelicoidal() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Sobre a Bomba Helicoidal
                         </span>
-                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6">
-                            Tecnologia de bombeamento com câmaras progressivas.
+                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6 [word-spacing:0.2em]">
+                            Tecnologia de bombeamento com câmaras progressivas
                         </h2>
                         <div className="space-y-4 text-sm text-gray-600 leading-relaxed">
                             <p>
@@ -295,8 +295,8 @@ export default function BombaHelicoidal() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Características Positivas
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Diferenciais operacionais.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Diferenciais operacionais
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[60ch] mx-auto leading-relaxed">
                             Versatilidade e desempenho para os mais diversos tipos de fluidos e condições operacionais.
@@ -335,8 +335,8 @@ export default function BombaHelicoidal() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Materiais de Fabricação
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Diversidade de materiais para cada aplicação.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Diversidade de materiais para cada aplicação
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[60ch] mx-auto leading-relaxed">
                             Múltiplas opções de materiais para estator, partes giratórias e corpo da bomba.
@@ -386,8 +386,8 @@ export default function BombaHelicoidal() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Principais Aplicações
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Segmentos atendidos.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Segmentos atendidos
                         </h2>
                     </motion.div>
 
@@ -422,8 +422,8 @@ export default function BombaHelicoidal() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Diferenciais Voltic
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Por que escolher as bombas helicoidais VOLTIC.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Por que escolher as bombas helicoidais VOLTIC
                         </h2>
                     </motion.div>
 
@@ -459,8 +459,8 @@ export default function BombaHelicoidal() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Precauções
                         </span>
-                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4">
-                            Cuidados operacionais.
+                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 [word-spacing:0.2em]">
+                            Cuidados operacionais
                         </h2>
                     </motion.div>
 
@@ -496,8 +496,8 @@ export default function BombaHelicoidal() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Acessórios
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Acessórios disponíveis.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Acessórios disponíveis
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[60ch] mx-auto leading-relaxed">
                             Recursos e opcionais que ampliam as possibilidades da sua bomba helicoidal.
@@ -533,7 +533,7 @@ export default function BombaHelicoidal() {
                         transition={{ duration: 0.6 }}
                         className="flex flex-col items-center gap-6"
                     >
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter">
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter [word-spacing:0.2em]">
                             Precisa de uma solução sob medida?
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[50ch] leading-relaxed">

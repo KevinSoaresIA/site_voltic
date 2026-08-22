@@ -51,7 +51,7 @@ const beneficios = [
     { titulo: "Rotor Aberto", desc: "Fluxo radial e carcaça em voluta com sucção no centro para máxima eficiência hidráulica." },
     { titulo: "Baixa Viscosidade", desc: "Ideal para líquidos com viscosidades de até 600 cp, como produtos aquosos e soluções diversas." },
     { titulo: "Alta Vazão", desc: "Capacidade de lidar com vazões de até 272,5 m³/h, atendendo demandas industriais de grande porte." },
-    { titulo: "Certificação 3-A", desc: "Certificado nº 1004 — Padrões sanitários para bombas centrífugas e de deslocamento positivo." },
+    { titulo: "Certificação 3-A", desc: "Certificado nº 1004: Padrões sanitários para bombas centrífugas e de deslocamento positivo." },
     { titulo: "Qualidade Garantida", desc: "Análise de composição química em todas as barras, chapas e peças fundidas. Relatório de Teste de Matéria disponível." },
 ];
 
@@ -119,8 +119,8 @@ export default function SerieVBC() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Sobre a Série VBC
                         </span>
-                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6">
-                            Versatilidade e economia em uma só bomba.
+                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6 [word-spacing:0.2em]">
+                            Versatilidade e economia em uma só bomba
                         </h2>
                         <div className="space-y-4 text-sm text-gray-600 leading-relaxed">
                             <p>
@@ -175,8 +175,8 @@ export default function SerieVBC() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Construção e Materiais
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Qualidade certificada em cada componente.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Qualidade certificada em cada componente
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[60ch] mx-auto leading-relaxed">
                             Materiais de alta resistência com análise de composição química garantida em todas as matérias-primas.
@@ -235,8 +235,8 @@ export default function SerieVBC() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Selos Mecânicos
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Configurações para cada aplicação.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Configurações para cada aplicação
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[60ch] mx-auto leading-relaxed">
                             Fabricados em grafite, cerâmica, carbeto de silício e tungstênio, com elastômeros Buna N, EPDM, FKM e PTFE. Todos projetados para atender padrões 3-A e requisitos da FDA.
@@ -279,8 +279,8 @@ export default function SerieVBC() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Principais Aplicações
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Segmentos atendidos pela Série VBC.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Segmentos atendidos pela Série VBC
                         </h2>
                     </motion.div>
 
@@ -315,8 +315,8 @@ export default function SerieVBC() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Por que escolher a VBC
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Diferenciais da Série VBC.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Diferenciais da Série VBC
                         </h2>
                     </motion.div>
 
@@ -353,8 +353,8 @@ export default function SerieVBC() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Certificação 3-A
                         </span>
-                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter">
-                            Padrão 02-11 — Certificado nº 1004
+                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter [word-spacing:0.2em]">
+                            Padrão 02-11: Certificado nº 1004
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[50ch] leading-relaxed">
                             Padrões sanitários para bombas centrífugas e bombas de deslocamento positivo para manuseio de produtos lácteos. Todos os elastômeros cumprem os requisitos da FDA.
@@ -373,7 +373,7 @@ export default function SerieVBC() {
                         transition={{ duration: 0.6 }}
                         className="flex flex-col items-center gap-6"
                     >
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter">
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter [word-spacing:0.2em]">
                             Precisa de uma solução sob medida?
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[50ch] leading-relaxed">

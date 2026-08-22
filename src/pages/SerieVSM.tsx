@@ -129,8 +129,8 @@ export default function SerieVSM() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Modelos Disponíveis
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Três modelos para cada aplicação.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Três modelos para cada aplicação
                         </h2>
                     </motion.div>
 
@@ -184,8 +184,8 @@ export default function SerieVSM() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Características Construtivas
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Qualidade em todos os modelos.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Qualidade em todos os modelos
                         </h2>
                     </motion.div>
 
@@ -231,8 +231,8 @@ export default function SerieVSM() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Principais Aplicações
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Segmentos atendidos.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Segmentos atendidos
                         </h2>
                     </motion.div>
 
@@ -268,8 +268,8 @@ export default function SerieVSM() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Certificação 3-A
                         </span>
-                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter">
-                            Padrão 02-11 — Certificado nº 1004
+                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter [word-spacing:0.2em]">
+                            Padrão 02-11: Certificado nº 1004
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[50ch] leading-relaxed">
                             Todos os modelos da série VSM possuem certificação 3-A, garantindo padrões sanitários para manuseio de produtos lácteos.
@@ -288,7 +288,7 @@ export default function SerieVSM() {
                         transition={{ duration: 0.6 }}
                         className="flex flex-col items-center gap-6"
                     >
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter">
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter [word-spacing:0.2em]">
                             Precisa de uma solução sob medida?
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[50ch] leading-relaxed">

@@ -35,7 +35,7 @@ const beneficios = [
     { titulo: "Alta Pressão", desc: "Característica de bombeamento em alta pressão, com até 34,5 bar e alturas de até 352 metros." },
     { titulo: "Alta Viscosidade", desc: "Ideal para fluidos de baixa e alta viscosidade, até 1.000.000 cp." },
     { titulo: "Versatilidade Sanitária", desc: "Diferentes tipos de Selos Mecânicos e configurações de Rotores para atender uma variedade de aplicações sanitárias." },
-    { titulo: "Certificação 3-A", desc: "Certificado nº 1004 — Padrões sanitários para bombas de deslocamento positivo para manuseio de produtos lácteos." },
+    { titulo: "Certificação 3-A", desc: "Certificado nº 1004: Padrões sanitários para bombas de deslocamento positivo para manuseio de produtos lácteos." },
 ];
 
 const selos = [
@@ -113,8 +113,8 @@ export default function SerieVBP() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Sobre a Série VBP
                         </span>
-                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6">
-                            Fácil manutenção e alta pressão.
+                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter mt-4 mb-6 [word-spacing:0.2em]">
+                            Fácil manutenção e alta pressão
                         </h2>
                         <div className="space-y-4 text-sm text-gray-600 leading-relaxed">
                             <p>
@@ -169,8 +169,8 @@ export default function SerieVBP() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Construção e Materiais
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Materiais de alta resistência.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Materiais de alta resistência
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[60ch] mx-auto leading-relaxed">
                             Rotores em Aço Alloy 88 e componentes em Aço Inoxidável 316L com acabamento 32 Ra.
@@ -228,8 +228,8 @@ export default function SerieVBP() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Selos Mecânicos e Rotores
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Configurações para cada aplicação.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Configurações para cada aplicação
                         </h2>
                     </motion.div>
 
@@ -269,8 +269,8 @@ export default function SerieVBP() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Principais Aplicações
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Segmentos atendidos pela Série VBP.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Segmentos atendidos pela Série VBP
                         </h2>
                     </motion.div>
 
@@ -305,8 +305,8 @@ export default function SerieVBP() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Por que escolher a VBP
                         </span>
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4">
-                            Diferenciais da Série VBP.
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter mt-4 mb-4 [word-spacing:0.2em]">
+                            Diferenciais da Série VBP
                         </h2>
                     </motion.div>
 
@@ -343,8 +343,8 @@ export default function SerieVBP() {
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Certificação 3-A
                         </span>
-                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter">
-                            Padrão 02-11 — Certificado nº 1004
+                        <h2 className="font-heading text-3xl font-extrabold tracking-tighter [word-spacing:0.2em]">
+                            Padrão 02-11: Certificado nº 1004
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[50ch] leading-relaxed">
                             Padrões sanitários para bombas centrífugas e bombas de deslocamento positivo para manuseio de produtos lácteos. Todos os elastômeros cumprem os requisitos da FDA.
@@ -363,7 +363,7 @@ export default function SerieVBP() {
                         transition={{ duration: 0.6 }}
                         className="flex flex-col items-center gap-6"
                     >
-                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter">
+                        <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter [word-spacing:0.2em]">
                             Precisa de uma solução sob medida?
                         </h2>
                         <p className="text-sm text-gray-600 max-w-[50ch] leading-relaxed">
