@@ -149,7 +149,7 @@ export default function Navbar() {
             href="https://wa.me/554733002250"
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:flex items-center gap-2 px-4 py-2 bg-brand-blue hover:bg-brand-blue-hover text-white text-sm font-heading font-semibold rounded transition-colors"
+            className="hidden sm:flex items-center gap-2 px-4 py-2 bg-brand-blue-bright hover:bg-blue-600 text-white text-sm font-heading font-semibold rounded transition-colors"
           >
             <WhatsappLogo size={16} />
             Fale Conosco
@@ -220,7 +220,7 @@ export default function Navbar() {
                 href="https://wa.me/554733002250"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 mt-3 px-4 py-3 bg-brand-blue hover:bg-brand-blue-hover text-white text-sm font-heading font-semibold rounded"
+                className="flex items-center justify-center gap-2 mt-3 px-4 py-3 bg-brand-blue-bright hover:bg-blue-600 text-white text-sm font-heading font-semibold rounded"
               >
                 <WhatsappLogo size={16} />
                 Fale Conosco

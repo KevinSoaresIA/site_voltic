@@ -141,7 +141,7 @@ export default function Produtos() {
                 className="group flex flex-col h-full p-6 bg-brand-card/40 border border-brand-border rounded-lg hover:border-brand-blue-bright/30 hover:bg-brand-card/70 transition-all duration-300"
               >
                 <div className="flex items-start justify-between mb-4">
-                  <div className="p-2.5 bg-brand-card rounded border border-brand-border text-brand-blue-bright group-hover:bg-brand-blue/10 group-hover:border-brand-blue-bright/30 transition-all duration-300">
+                  <div className="p-2.5 bg-brand-card rounded border border-brand-border text-white group-hover:bg-brand-blue/10 group-hover:border-brand-blue-bright/30 transition-all duration-300">
                     {item.icon}
                   </div>
                   <ArrowUpRight size={18} className="text-brand-muted/40 group-hover:text-brand-blue-bright group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />

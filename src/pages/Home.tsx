@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Globe, Plant, Drop, Tree, ForkKnife, Flask, ArrowUpRight, Gear, Wrench, ShieldCheck, GraduationCap, Package, Ruler, Headset } from "@phosphor-icons/react";
 import { motion } from "motion/react";
-import bombaMontada from "../assets/images/bomba_montada.png";
+import bombaMontada from "../assets/images/nova_home.png";
 import volticEmpresaLocal from "../assets/images/voltic_empresa_local.webp";
 import homeHydroelectricPlant from "../assets/images/home-hydroelectric-plant.jpg";
 import homeIndustryFactory from "../assets/images/home-industry-factory.jpg";
@@ -21,29 +21,31 @@ export default function Home() {
     <div className="bg-brand-bg min-h-screen text-brand-text">
       {/* 1. HERO SECTION */}
       <section id="hero-section" className="relative overflow-hidden min-h-screen">
-        <img src={bombaMontada} alt="Bomba Helicoidal Voltic" className="absolute inset-0 w-full h-full object-cover" />
+        <img src={bombaMontada} alt="Bomba Helicoidal Voltic" className="absolute inset-0 w-full h-full object-cover object-[100%_110%]" />
+        {/* Véu de contraste leve: a foto nova já vem com gradiente escuro embutido, isso só reforça um pouco atrás do texto */}
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-bg/35 via-brand-bg/10 to-transparent pointer-events-none"></div>
 
         {/* BLOCO 1: TÍTULO + SUBTÍTULO NO TOPO ESQUERDO */}
         <div className="absolute z-10 top-24 left-8 md:top-32 md:left-16 max-w-[90vw] md:max-w-2xl">
-          <span className="font-league-spartan text-brand-blue text-sm md:text-[20pt] font-black tracking-wide uppercase mb-3 block">
+          <span className="font-league-spartan text-brand-blue-bright text-sm md:text-[20pt] font-black tracking-wide uppercase mb-3 block">
             SISTEMAS DE BOMBEAMENTO INDUSTRIAL
           </span>
           <h1 className="font-archivo-black text-xl sm:text-2xl md:text-[37pt] text-white leading-[40pt]">
             <span className="block whitespace-nowrap">Sua solução para bombeamento</span>
             <span className="block whitespace-nowrap">começa aqui</span>
           </h1>
-          <p className="mt-3 text-xs md:text-[11pt] text-brand-blue font-bold leading-relaxed max-w-xs md:max-w-sm">
+          <p className="mt-3 text-xs md:text-[11pt] text-gray-200 font-medium leading-relaxed max-w-xs md:max-w-sm">
             Fabricação, manutenção e suporte técnico completo para operações industriais
           </p>
         </div>
 
         {/* BLOCO 3: BOTÕES NO CANTO INFERIOR DIREITO */}
         <div className="absolute z-10 bottom-52 right-8 md:bottom-64 md:right-24 flex flex-col sm:flex-row gap-4 items-end">
-          <a href="/bombahelicoidal" className="bg-brand-blue hover:bg-brand-blue-hover text-white font-bold px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-[0_0_20px_-2px_rgba(16,46,69,0.5)] flex items-center gap-2">
+          <a href="/bombahelicoidal" className="bg-brand-blue-bright hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-[0_0_20px_-2px_rgba(59,130,246,0.5)] flex items-center gap-2">
             Conhecer Produtos
             <span>→</span>
           </a>
-          <a href="https://wa.me/554733002250" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center border border-brand-blue/60 hover:border-brand-blue text-[#102E45] font-bold px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-[0_0_20px_-2px_rgba(16,46,69,0.5)] backdrop-blur-sm">
+          <a href="https://wa.me/554733002250" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center border border-brand-blue-bright/60 hover:border-brand-blue-bright text-brand-blue-bright font-bold px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-[0_0_20px_-2px_rgba(59,130,246,0.5)] backdrop-blur-sm bg-white/90">
             Falar com especialista
           </a>
         </div>
