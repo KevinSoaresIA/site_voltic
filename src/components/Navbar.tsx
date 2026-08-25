@@ -61,7 +61,7 @@ export default function Navbar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled || mobileOpen ? "bg-brand-bg/95 backdrop-blur-md border-b border-brand-border" : "bg-brand-bg"
         }`}
     >
-      <div className="w-full pl-8 md:pl-16 pr-6 h-16 flex items-center justify-between">
+      <div className="w-full px-5 sm:px-6 md:pl-16 md:pr-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 shrink-0">
           <img src={volticLogo} alt="Voltic Bombas" className="h-8 md:h-10 w-auto" />
@@ -173,18 +173,18 @@ export default function Navbar() {
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
             className="lg:hidden bg-brand-bg border-t border-brand-border overflow-hidden"
           >
-            <div className="px-6 py-4 flex flex-col gap-0.5 max-h-[80vh] overflow-y-auto">
-              <Link to="/" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
+            <div className="px-5 sm:px-6 py-4 flex flex-col gap-0.5 max-h-[80vh] overflow-y-auto">
+              <Link to="/" className="py-3 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
                 Home
               </Link>
-              <Link to="/quemsomos" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
+              <Link to="/quemsomos" className="py-3 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
                 Quem Somos
               </Link>
 
               {/* Produtos Mobile */}
               <button
                 onClick={() => setMobileSubmenu(mobileSubmenu === "produtos" ? null : "produtos")}
-                className="flex items-center justify-between py-2.5 text-sm font-heading font-medium text-brand-text"
+                className="flex items-center justify-between py-3 text-sm font-heading font-medium text-brand-text"
               >
                 Produtos
                 <CaretDown
@@ -198,7 +198,7 @@ export default function Navbar() {
                     <Link
                       key={i}
                       to={item.rota}
-                      className="py-2 text-xs text-brand-muted hover:text-brand-blue-bright transition-colors"
+                      className="py-2.5 text-[13px] text-brand-muted hover:text-brand-blue-bright transition-colors"
                     >
                       {item.nome}
                     </Link>
@@ -206,13 +206,13 @@ export default function Navbar() {
                 </div>
               )}
 
-              <Link to="/servicos" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
+              <Link to="/servicos" className="py-3 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
                 Serviços
               </Link>
-              <Link to="/contato" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
+              <Link to="/contato" className="py-3 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
                 Contato
               </Link>
-              <Link to="/trabalheconosco" className="py-2.5 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
+              <Link to="/trabalheconosco" className="py-3 text-sm font-heading font-medium text-brand-text hover:text-brand-blue-bright">
                 Trabalhe Conosco
               </Link>
 

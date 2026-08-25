@@ -6,10 +6,10 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#0A0A0A] border-t border-brand-border pt-16 pb-8">
-      <div className="max-w-[1400px] mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
+    <footer className="bg-[#0A0A0A] border-t border-brand-border pt-10 sm:pt-12 md:pt-16 pb-6 sm:pb-8">
+      <div className="max-w-[1400px] mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-10">
         {/* Brand Block */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-3 md:gap-4">
           <Link to="/" className="flex items-center gap-2">
             <img src={volticLogo} alt="Voltic Bombas" className="h-8 md:h-10 w-auto" />
           </Link>
@@ -19,7 +19,7 @@ export function Footer() {
         </div>
 
         {/* Quick Links */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-3 md:gap-4">
           <h3 className="font-heading font-bold text-xs uppercase tracking-wider text-brand-text">
             Navegação
           </h3>
@@ -63,7 +63,7 @@ export function Footer() {
         </div>
 
         {/* Products */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-3 md:gap-4">
           <h3 className="font-heading font-bold text-xs uppercase tracking-wider text-brand-text">
             Produtos
           </h3>
@@ -102,7 +102,7 @@ export function Footer() {
         </div>
 
         {/* Contact Info */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-3 md:gap-4">
           <h3 className="font-heading font-bold text-xs uppercase tracking-wider text-brand-text">
             Fale Conosco
           </h3>
@@ -138,7 +138,7 @@ export function Footer() {
         </div>
 
         {/* Address */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-3 md:gap-4">
           <h3 className="font-heading font-bold text-xs uppercase tracking-wider text-brand-text">
             Localização
           </h3>
@@ -155,7 +155,7 @@ export function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="max-w-[1400px] mx-auto px-6 mt-16 pt-8 border-t border-brand-border flex flex-col md:flex-row items-center justify-between gap-4">
+      <div className="max-w-[1400px] mx-auto px-6 mt-10 md:mt-16 pt-6 md:pt-8 border-t border-brand-border flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-xs text-brand-muted">
           &copy; {currentYear} Voltic Bombas Ltda. Todos os direitos reservados.
         </p>

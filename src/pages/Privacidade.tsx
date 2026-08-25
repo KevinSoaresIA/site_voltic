@@ -4,7 +4,7 @@ export default function Privacidade() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
             {/* Hero */}
-            <section className="py-16 px-6 border-b border-brand-border">
+            <section className="py-10 sm:py-14 md:py-16 px-6 border-b border-brand-border">
                 <div className="max-w-[800px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -26,7 +26,7 @@ export default function Privacidade() {
             </section>
 
             {/* Conteúdo */}
-            <section className="py-16 px-6 bg-white text-black">
+            <section className="py-10 sm:py-14 md:py-16 px-6 bg-white text-black">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}

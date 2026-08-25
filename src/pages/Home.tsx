@@ -20,27 +20,51 @@ export default function Home() {
   return (
     <div className="bg-brand-bg min-h-screen text-brand-text">
       {/* 1. HERO SECTION */}
-      <section id="hero-section" className="relative overflow-hidden min-h-screen">
+      <section id="hero-section" className="relative overflow-hidden min-h-[max(560px,92vh)] md:min-h-screen">
         <img src={bombaMontada} alt="Bomba Helicoidal Voltic" className="absolute inset-0 w-full h-full object-cover object-[100%_110%]" />
-        {/* Véu de contraste leve: a foto nova já vem com gradiente escuro embutido, isso só reforça um pouco atrás do texto */}
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-bg/35 via-brand-bg/10 to-transparent pointer-events-none"></div>
 
-        {/* BLOCO 1: TÍTULO + SUBTÍTULO NO TOPO ESQUERDO */}
-        <div className="absolute z-10 top-24 left-8 md:top-32 md:left-16 max-w-[90vw] md:max-w-2xl">
-          <span className="font-league-spartan text-brand-blue-bright text-sm md:text-[20pt] font-black tracking-wide uppercase mb-3 block">
+        {/* Mobile (abaixo de md): conteúdo em fluxo normal, sem posicionamento absoluto */}
+        <div className="md:hidden absolute inset-0 bg-gradient-to-t from-brand-bg/75 via-brand-bg/25 to-transparent pointer-events-none"></div>
+        <div className="md:hidden relative z-10 flex flex-col justify-end min-h-[max(560px,92vh)] px-6 pb-10 pt-24 gap-5">
+          <div className="flex flex-col gap-3">
+            <span className="font-league-spartan text-brand-blue-bright text-sm font-black tracking-wide uppercase block">
+              SISTEMAS DE BOMBEAMENTO INDUSTRIAL
+            </span>
+            <h1 className="font-archivo-black text-3xl text-white leading-[1.15]">
+              Sua solução para bombeamento começa aqui
+            </h1>
+            <p className="text-xs text-gray-200 font-medium leading-relaxed max-w-sm">
+              Fabricação, manutenção e suporte técnico completo para operações industriais
+            </p>
+          </div>
+          <div className="flex flex-col gap-3 w-full">
+            <a href="/bombahelicoidal" className="w-full justify-center bg-brand-blue-bright hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition-all duration-300 flex items-center gap-2">
+              Conhecer Produtos
+              <span>→</span>
+            </a>
+            <a href="https://wa.me/554733002250" target="_blank" rel="noopener noreferrer" className="w-full justify-center flex items-center border border-brand-blue-bright/60 hover:border-brand-blue-bright text-brand-blue-bright font-bold px-6 py-3 rounded-lg transition-all duration-300 backdrop-blur-sm bg-white/90">
+              Falar com especialista
+            </a>
+          </div>
+        </div>
+
+        {/* Desktop (md e acima): layout original com posicionamento absoluto, inalterado visualmente */}
+        <div className="hidden md:block absolute inset-0 bg-gradient-to-r from-brand-bg/35 via-brand-bg/10 to-transparent pointer-events-none"></div>
+
+        <div className="hidden md:block absolute z-10 top-32 left-16 max-w-2xl">
+          <span className="font-league-spartan text-brand-blue-bright text-[20pt] font-black tracking-wide uppercase mb-3 block">
             SISTEMAS DE BOMBEAMENTO INDUSTRIAL
           </span>
-          <h1 className="font-archivo-black text-xl sm:text-2xl md:text-[37pt] text-white leading-[40pt]">
+          <h1 className="font-archivo-black text-[37pt] text-white leading-[40pt]">
             <span className="block whitespace-nowrap">Sua solução para bombeamento</span>
             <span className="block whitespace-nowrap">começa aqui</span>
           </h1>
-          <p className="mt-3 text-xs md:text-[11pt] text-gray-200 font-medium leading-relaxed max-w-xs md:max-w-sm">
+          <p className="mt-3 text-[11pt] text-gray-200 font-medium leading-relaxed max-w-sm">
             Fabricação, manutenção e suporte técnico completo para operações industriais
           </p>
         </div>
 
-        {/* BLOCO 3: BOTÕES NO CANTO INFERIOR DIREITO */}
-        <div className="absolute z-10 bottom-52 right-8 md:bottom-64 md:right-24 flex flex-col sm:flex-row gap-4 items-end">
+        <div className="hidden md:flex absolute z-10 bottom-64 right-24 flex-row gap-4 items-end">
           <a href="/bombahelicoidal" className="bg-brand-blue-bright hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-[0_0_20px_-2px_rgba(59,130,246,0.5)] flex items-center gap-2">
             Conhecer Produtos
             <span>→</span>
@@ -52,9 +76,9 @@ export default function Home() {
       </section>
 
       {/* 1B. COMO PODEMOS AJUDAR? */}
-      <section className="py-24 px-6 relative overflow-hidden bg-white text-black border-b border-gray-200">
+      <section className="py-14 sm:py-16 md:py-24 px-6 relative overflow-hidden bg-white text-black border-b border-gray-200">
         <div className="max-w-[1400px] mx-auto relative z-10">
-          <div className="flex flex-col items-center text-center gap-4 mb-16">
+          <div className="flex flex-col items-center text-center gap-4 mb-10 md:mb-16">
             <motion.h2
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -131,8 +155,8 @@ export default function Home() {
       </section>
 
       {/* 2. QUEM SOMOS SECTION (RESUMO) */}
-      <section className="py-24 px-6 relative overflow-hidden bg-white text-black border-b border-gray-200">
-        <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+      <section className="py-14 sm:py-16 md:py-24 px-6 relative overflow-hidden bg-white text-black border-b border-gray-200">
+        <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 lg:gap-16 items-center">
           {/* Left: Image Support (col-span-5) */}
           <div className="lg:col-span-5 order-2 lg:order-1">
             <motion.div
@@ -197,7 +221,7 @@ export default function Home() {
       </section>
 
       {/* 3. O QUE FAZEMOS SECTION (SEGMENTOS) */}
-      <section className="py-24 px-6 relative overflow-hidden border-b border-gray-200 bg-white text-black">
+      <section className="py-14 sm:py-16 md:py-24 px-6 relative overflow-hidden border-b border-gray-200 bg-white text-black">
         {/* Decorative Grid Lines */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.035)_1px,transparent_1px)] bg-[size:6rem_6rem] pointer-events-none"></div>
 
@@ -206,7 +230,7 @@ export default function Home() {
 
         <div className="max-w-[1400px] mx-auto relative z-10">
           {/* Section Header */}
-          <div className="flex flex-col items-center text-center gap-4 mb-16">
+          <div className="flex flex-col items-center text-center gap-4 mb-10 md:mb-16">
             <motion.span
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -338,11 +362,11 @@ export default function Home() {
       </section>
 
       {/* 4. SERVIÇOS SECTION (RESUMO) */}
-      <section className="py-24 px-6 relative overflow-hidden bg-brand-card/20 border-b border-brand-border">
+      <section className="py-14 sm:py-16 md:py-24 px-6 relative overflow-hidden bg-brand-card/20 border-b border-brand-border">
         {/* Subtle decorative glow */}
         <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-brand-blue/2 rounded-full filter blur-[120px] pointer-events-none"></div>
 
-        <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 lg:gap-16 items-center">
 
           {/* Left Column: Headline, Desc, CTA and a Visual Thumbnail */}
           <div className="lg:col-span-5 flex flex-col items-start gap-6 text-left">
@@ -457,11 +481,11 @@ export default function Home() {
       </section>
 
       {/* 5. CLIENTES SECTION */}
-      <section className="py-24 px-6 relative overflow-hidden bg-white text-black">
+      <section className="py-14 sm:py-16 md:py-24 px-6 relative overflow-hidden bg-white text-black">
         <div className="max-w-[1400px] mx-auto relative z-10">
 
           {/* Section Header */}
-          <div className="flex flex-col items-center text-center gap-4 mb-16">
+          <div className="flex flex-col items-center text-center gap-4 mb-10 md:mb-16">
             <motion.h2
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}

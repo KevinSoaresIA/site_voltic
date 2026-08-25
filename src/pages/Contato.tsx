@@ -82,7 +82,7 @@ export default function Contato() {
   return (
     <div className="bg-brand-bg min-h-screen text-brand-text">
       {/* 1. HERO */}
-      <section className="relative min-h-[40vh] md:min-h-[50vh] flex items-center justify-center overflow-hidden pt-12 md:pt-16 pb-16 px-6 border-b border-brand-border">
+      <section className="relative min-h-[40vh] md:min-h-[50vh] flex items-center justify-center overflow-hidden pt-12 md:pt-16 pb-10 sm:pb-12 md:pb-16 px-6 border-b border-brand-border">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
         <div className="absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-brand-blue/5 rounded-full filter blur-[80px] pointer-events-none"></div>
 
@@ -118,7 +118,7 @@ export default function Contato() {
       </section>
 
       {/* 2. CARDS DE CONTATO */}
-      <section className="py-20 px-6 relative overflow-hidden border-b border-gray-200 bg-white text-black">
+      <section className="py-12 sm:py-16 md:py-20 px-6 relative overflow-hidden border-b border-gray-200 bg-white text-black">
         <div className="max-w-[1400px] mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {contatos.map((item, index) => (
@@ -150,8 +150,8 @@ export default function Contato() {
       </section>
 
       {/* 3. FORMULÁRIO + MAPA */}
-      <section className="py-24 px-6 relative overflow-hidden border-b border-gray-200 bg-white text-black">
-        <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+      <section className="py-14 sm:py-16 md:py-24 px-6 relative overflow-hidden border-b border-gray-200 bg-white text-black">
+        <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 lg:gap-16">
           {/* Formulário */}
           <div className="lg:col-span-7 flex flex-col gap-6">
             <motion.div
@@ -367,7 +367,7 @@ export default function Contato() {
       </section>
 
       {/* 4. CTA FINAL */}
-      <section className="py-24 px-6 relative overflow-hidden bg-white text-black">
+      <section className="py-14 sm:py-16 md:py-24 px-6 relative overflow-hidden bg-white text-black">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.035)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.035)_1px,transparent_1px)] bg-[size:6rem_6rem] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none"></div>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-blue/3 rounded-full filter blur-[150px] pointer-events-none"></div>
 

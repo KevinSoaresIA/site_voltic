@@ -100,7 +100,7 @@ export default function Servicos() {
   return (
     <div className="bg-brand-bg min-h-screen text-brand-text">
       {/* 1. HERO */}
-      <section className="relative min-h-[50vh] md:min-h-[60vh] flex items-center justify-center overflow-hidden pt-12 md:pt-16 pb-20 px-6 border-b border-brand-border">
+      <section className="relative min-h-[50vh] md:min-h-[60vh] flex items-center justify-center overflow-hidden pt-12 md:pt-16 pb-12 sm:pb-16 md:pb-20 px-6 border-b border-brand-border">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
         <div className="absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-brand-blue/5 rounded-full filter blur-[100px] pointer-events-none"></div>
 
@@ -198,9 +198,9 @@ export default function Servicos() {
       </section>
 
       {/* 2. GRID DE SERVIÇOS */}
-      <section className="py-24 px-6 relative overflow-hidden border-b border-gray-200 bg-white text-black">
+      <section className="py-14 sm:py-16 md:py-24 px-6 relative overflow-hidden border-b border-gray-200 bg-white text-black">
         <div className="max-w-[1400px] mx-auto">
-          <div className="flex flex-col items-center text-center gap-4 mb-16">
+          <div className="flex flex-col items-center text-center gap-4 mb-10 md:mb-16">
             <motion.span
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -255,10 +255,10 @@ export default function Servicos() {
       </section>
 
       {/* 3. PROCESSO DE ATENDIMENTO */}
-      <section className="py-24 px-6 relative overflow-hidden border-b border-gray-200 bg-white text-black">
+      <section className="py-14 sm:py-16 md:py-24 px-6 relative overflow-hidden border-b border-gray-200 bg-white text-black">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.035)_1px,transparent_1px)] bg-[size:6rem_6rem] pointer-events-none"></div>
         <div className="max-w-[1400px] mx-auto relative z-10">
-          <div className="flex flex-col items-center text-center gap-4 mb-16">
+          <div className="flex flex-col items-center text-center gap-4 mb-10 md:mb-16">
             <motion.span
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -323,10 +323,10 @@ export default function Servicos() {
       </section>
 
       {/* 4. GARANTIAS */}
-      <section className="py-24 px-6 relative overflow-hidden bg-white border-b border-gray-200 text-black">
+      <section className="py-14 sm:py-16 md:py-24 px-6 relative overflow-hidden bg-white border-b border-gray-200 text-black">
         <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-brand-blue/3 rounded-full filter blur-[120px] pointer-events-none"></div>
         <div className="max-w-[1400px] mx-auto relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 lg:gap-16 items-start">
             <div className="lg:col-span-4 lg:sticky lg:top-24">
               <motion.h2
                 initial={{ opacity: 0, y: 15 }}
@@ -376,7 +376,7 @@ export default function Servicos() {
       </section>
 
       {/* 5. CTA FINAL */}
-      <section className="py-24 px-6 relative overflow-hidden bg-white text-black">
+      <section className="py-14 sm:py-16 md:py-24 px-6 relative overflow-hidden bg-white text-black">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.035)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.035)_1px,transparent_1px)] bg-[size:6rem_6rem] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none"></div>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-blue/3 rounded-full filter blur-[150px] pointer-events-none"></div>
 

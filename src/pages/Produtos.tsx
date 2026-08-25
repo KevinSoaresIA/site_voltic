@@ -95,7 +95,7 @@ export default function Produtos() {
   return (
     <div className="bg-brand-bg min-h-screen text-brand-text pt-16">
       {/* Hero */}
-      <section className="py-16 px-6 border-b border-brand-border">
+      <section className="py-10 sm:py-12 md:py-10 sm:py-12 md:py-16 px-6 border-b border-brand-border">
         <div className="max-w-[1400px] mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 15 }}
@@ -126,7 +126,7 @@ export default function Produtos() {
       </section>
 
       {/* Grid de produtos */}
-      <section className="py-16 px-6">
+      <section className="py-10 sm:py-12 md:py-16 px-6">
         <div className="max-w-[1400px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {produtos.map((item, i) => (
             <motion.div
@@ -159,7 +159,7 @@ export default function Produtos() {
       </section>
 
       {/* CTA Final */}
-      <section className="py-20 px-6 bg-white border-t border-gray-200 text-black">
+      <section className="py-12 sm:py-16 md:py-20 px-6 bg-white border-t border-gray-200 text-black">
         <div className="max-w-[800px] mx-auto text-center flex flex-col items-center gap-6">
           <h2 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tighter [word-spacing:0.2em]">
             Não sabe qual equipamento escolher?

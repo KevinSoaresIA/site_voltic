@@ -1,0 +1,20 @@
+# Voltic — configuração para hospedagem Apache (Hostinger, HostGator, cPanel)
+# Equivalente ao vercel.json, usado quando o site sair da Vercel.
+
+# 1. Roteamento de SPA: qualquer URL que não seja um arquivo/pasta real
+# (ex: /produtos/serie-vbc) deve carregar o index.html, para o React Router
+# assumir o controle da navegação no navegador.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+
+# 2. Headers de segurança (mesmos aplicados no vercel.json)
+<IfModule mod_headers.c>
+  Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+  Header set X-Content-Type-Options "nosniff"
+</IfModule>

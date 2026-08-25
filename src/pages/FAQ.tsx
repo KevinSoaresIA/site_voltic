@@ -65,7 +65,7 @@ export default function FAQ() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
             {/* Hero */}
-            <section className="py-16 px-6 border-b border-brand-border">
+            <section className="py-10 sm:py-12 md:py-16 px-6 border-b border-brand-border">
                 <div className="max-w-[800px] mx-auto text-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -88,7 +88,7 @@ export default function FAQ() {
             </section>
 
             {/* Accordion */}
-            <section className="py-16 px-6 bg-white text-black">
+            <section className="py-10 sm:py-12 md:py-16 px-6 bg-white text-black">
                 <div className="max-w-[800px] mx-auto flex flex-col gap-4">
                     {perguntas.map((item, index) => {
                         const estaAberto = aberto === index;

@@ -39,7 +39,7 @@ export default function SkidsDosagem() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
             {/* Hero */}
-            <section className="py-16 px-6">
+            <section className="py-10 sm:py-12 md:py-16 px-6">
                 <div className="max-w-[1200px] mx-auto grid lg:grid-cols-2 gap-12 items-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -57,7 +57,7 @@ export default function SkidsDosagem() {
                         <p className="text-base text-brand-muted max-w-[60ch] leading-relaxed">
                             Equipamentos especialmente projetados para oferecer um sistema completo de dosagem com todos os acessórios e a estrutura necessária.
                         </p>
-                        <div className="flex flex-col sm:flex-row gap-4 mt-2">
+                        <div className="flex flex-col sm:flex-row gap-4 mt-2 [&>a]:w-full sm:[&>a]:w-auto">
                             <a
                                 href="#caracteristicas"
                                 className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
@@ -95,7 +95,7 @@ export default function SkidsDosagem() {
             ]} />
 
             {/* Sobre */}
-            <section id="sobre" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="sobre" className="py-12 sm:py-16 md:py-20 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[800px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -128,14 +128,14 @@ export default function SkidsDosagem() {
             </section>
 
             {/* Características */}
-            <section id="caracteristicas" className="py-20 px-6 bg-white text-black">
+            <section id="caracteristicas" className="py-12 sm:py-16 md:py-20 px-6 bg-white text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="text-center mb-12"
+                        className="text-center mb-8 md:mb-12"
                     >
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Características Principais
@@ -168,14 +168,14 @@ export default function SkidsDosagem() {
             </section>
 
             {/* Acionamentos */}
-            <section id="acionamentos" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="acionamentos" className="py-12 sm:py-16 md:py-20 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="text-center mb-12"
+                        className="text-center mb-8 md:mb-12"
                     >
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Formas de Acionamento
@@ -207,14 +207,14 @@ export default function SkidsDosagem() {
             </section>
 
             {/* Opcionais */}
-            <section id="opcionais" className="py-20 px-6 bg-white text-black">
+            <section id="opcionais" className="py-12 sm:py-16 md:py-20 px-6 bg-white text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="text-center mb-12"
+                        className="text-center mb-8 md:mb-12"
                     >
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Características e Opcionais
@@ -246,7 +246,7 @@ export default function SkidsDosagem() {
             </section>
 
             {/* CTA Final */}
-            <section className="py-20 px-6 bg-white border-t border-gray-200 text-black">
+            <section className="py-12 sm:py-16 md:py-20 px-6 bg-white border-t border-gray-200 text-black">
                 <div className="max-w-[800px] mx-auto text-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}

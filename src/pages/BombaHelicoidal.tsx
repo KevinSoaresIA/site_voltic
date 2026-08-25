@@ -85,7 +85,7 @@ export default function BombaHelicoidal() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
             {/* Hero */}
-            <section className="py-16 px-6">
+            <section className="py-10 sm:py-12 md:py-16 px-6">
                 <div className="max-w-[1200px] mx-auto grid lg:grid-cols-2 gap-12 items-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -103,7 +103,7 @@ export default function BombaHelicoidal() {
                         <p className="text-base text-brand-muted max-w-[60ch] leading-relaxed">
                             Descubra a tecnologia por trás das bombas VOLTIC. Com um design inovador e materiais de alta qualidade, nossas bombas oferecem um desempenho excepcional em diversas indústrias.
                         </p>
-                        <div className="flex flex-col sm:flex-row gap-4 mt-2">
+                        <div className="flex flex-col sm:flex-row gap-4 mt-2 [&>a]:w-full sm:[&>a]:w-auto">
                             <a
                                 href="#especificacoes-tecnicas"
                                 onClick={(e) => {
@@ -150,7 +150,7 @@ export default function BombaHelicoidal() {
             ]} />
 
             {/* Quando considerar uma bomba helicoidal? */}
-            <section id="quando-usar" className="py-16 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="quando-usar" className="py-10 sm:py-12 md:py-16 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.h2
                         initial={{ opacity: 0, y: 20 }}
@@ -187,7 +187,7 @@ export default function BombaHelicoidal() {
             </section>
 
             {/* Esta bomba é indicada para */}
-            <section id="indicacoes" className="py-16 px-6 bg-white text-black">
+            <section id="indicacoes" className="py-10 sm:py-12 md:py-16 px-6 bg-white text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.h2
                         initial={{ opacity: 0, y: 20 }}
@@ -225,8 +225,8 @@ export default function BombaHelicoidal() {
             </section>
 
             {/* Sobre + Especificações */}
-            <section id="sobre" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
-                <div className="max-w-[1200px] mx-auto grid lg:grid-cols-2 gap-12 items-start">
+            <section id="sobre" className="py-12 sm:py-16 md:py-20 px-6 bg-white border-y border-gray-200 text-black">
+                <div className="max-w-[1200px] mx-auto grid lg:grid-cols-2 gap-8 md:gap-12 items-start">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -275,22 +275,22 @@ export default function BombaHelicoidal() {
                         <p className="mt-4 text-xs text-gray-600 leading-relaxed">
                             Os limites variam conforme o modelo, os materiais e as condições da aplicação. O dimensionamento deve ser confirmado pela equipe técnica.
                         </p>
-                        <div className="mt-4 rounded-lg border border-gray-200 overflow-hidden">
-                            <img src={bombaHelicoidalTabela} alt="Tabela de modelos Bomba Helicoidal" className="w-full h-auto object-cover" />
+                        <div className="mt-4 rounded-lg border border-gray-200 overflow-x-auto">
+                            <img src={bombaHelicoidalTabela} alt="Tabela de modelos Bomba Helicoidal" className="h-auto min-w-[640px] w-full sm:w-auto object-cover" />
                         </div>
                     </motion.div>
                 </div>
             </section>
 
             {/* Características Positivas */}
-            <section id="caracteristicas" className="py-20 px-6 bg-white text-black">
+            <section id="caracteristicas" className="py-12 sm:py-16 md:py-20 px-6 bg-white text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="text-center mb-12"
+                        className="text-center mb-8 md:mb-12"
                     >
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Características Positivas
@@ -323,14 +323,14 @@ export default function BombaHelicoidal() {
             </section>
 
             {/* Materiais de Fabricação */}
-            <section id="materiais" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="materiais" className="py-12 sm:py-16 md:py-20 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="text-center mb-12"
+                        className="text-center mb-8 md:mb-12"
                     >
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Materiais de Fabricação
@@ -374,14 +374,14 @@ export default function BombaHelicoidal() {
             </section>
 
             {/* Aplicações */}
-            <section id="aplicacoes" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="aplicacoes" className="py-12 sm:py-16 md:py-20 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="text-center mb-12"
+                        className="text-center mb-8 md:mb-12"
                     >
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Principais Aplicações
@@ -410,14 +410,14 @@ export default function BombaHelicoidal() {
             </section>
 
             {/* Benefícios */}
-            <section id="diferenciais" className="py-20 px-6 bg-white text-black">
+            <section id="diferenciais" className="py-12 sm:py-16 md:py-20 px-6 bg-white text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="text-center mb-12"
+                        className="text-center mb-8 md:mb-12"
                     >
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Diferenciais Voltic
@@ -447,7 +447,7 @@ export default function BombaHelicoidal() {
             </section>
 
             {/* Precauções */}
-            <section id="precaucoes" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="precaucoes" className="py-12 sm:py-16 md:py-20 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[800px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -484,14 +484,14 @@ export default function BombaHelicoidal() {
             </section>
 
             {/* Acessórios Disponíveis */}
-            <section id="acessorios" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="acessorios" className="py-12 sm:py-16 md:py-20 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="text-center mb-12"
+                        className="text-center mb-8 md:mb-12"
                     >
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Acessórios
@@ -524,7 +524,7 @@ export default function BombaHelicoidal() {
             </section>
 
             {/* CTA Final */}
-            <section className="py-20 px-6 bg-white border-t border-gray-200 text-black">
+            <section className="py-12 sm:py-16 md:py-20 px-6 bg-white border-t border-gray-200 text-black">
                 <div className="max-w-[800px] mx-auto text-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}

@@ -53,7 +53,7 @@ export default function SerieVBP() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
             {/* Hero */}
-            <section className="py-16 px-6">
+            <section className="py-10 sm:py-12 md:py-16 px-6">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -71,7 +71,7 @@ export default function SerieVBP() {
                         <p className="text-base text-brand-muted max-w-[60ch] leading-relaxed">
                             A série VBP é uma bomba de fácil manutenção e baixo ruído na operação, ideal para aplicações em fluidos de baixa e alta viscosidade.
                         </p>
-                        <div className="flex flex-col sm:flex-row gap-4 mt-2">
+                        <div className="flex flex-col sm:flex-row gap-4 mt-2 [&>a]:w-full sm:[&>a]:w-auto">
                             <a
                                 href="#especificacoes"
                                 className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-brand-blue hover:bg-brand-blue-hover active:scale-[0.98] text-white font-heading text-sm font-semibold uppercase tracking-wider rounded transition-all duration-200"
@@ -102,8 +102,8 @@ export default function SerieVBP() {
             ]} />
 
             {/* Sobre + Especificações */}
-            <section id="sobre" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
-                <div className="max-w-[1200px] mx-auto grid lg:grid-cols-2 gap-12 items-start">
+            <section id="sobre" className="py-12 sm:py-16 md:py-20 px-6 bg-white border-y border-gray-200 text-black">
+                <div className="max-w-[1200px] mx-auto grid lg:grid-cols-2 gap-8 md:gap-12 items-start">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -157,14 +157,14 @@ export default function SerieVBP() {
             </section>
 
             {/* Materiais */}
-            <section id="materiais" className="py-20 px-6 bg-white text-black">
+            <section id="materiais" className="py-12 sm:py-16 md:py-20 px-6 bg-white text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="text-center mb-12"
+                        className="text-center mb-8 md:mb-12"
                     >
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Construção e Materiais
@@ -216,14 +216,14 @@ export default function SerieVBP() {
             </section>
 
             {/* Selos e Rotores */}
-            <section id="selos" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="selos" className="py-12 sm:py-16 md:py-20 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="text-center mb-12"
+                        className="text-center mb-8 md:mb-12"
                     >
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Selos Mecânicos e Rotores
@@ -257,14 +257,14 @@ export default function SerieVBP() {
             </section>
 
             {/* Aplicações */}
-            <section id="aplicacoes" className="py-20 px-6 bg-white text-black">
+            <section id="aplicacoes" className="py-12 sm:py-16 md:py-20 px-6 bg-white text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="text-center mb-12"
+                        className="text-center mb-8 md:mb-12"
                     >
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Principais Aplicações
@@ -293,14 +293,14 @@ export default function SerieVBP() {
             </section>
 
             {/* Benefícios */}
-            <section id="diferenciais" className="py-20 px-6 bg-white border-y border-gray-200 text-black">
+            <section id="diferenciais" className="py-12 sm:py-16 md:py-20 px-6 bg-white border-y border-gray-200 text-black">
                 <div className="max-w-[1200px] mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="text-center mb-12"
+                        className="text-center mb-8 md:mb-12"
                     >
                         <span className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-brand-blue bg-brand-blue/10 px-3 py-1.5 rounded-full border border-brand-blue/20">
                             Por que escolher a VBP
@@ -330,7 +330,7 @@ export default function SerieVBP() {
             </section>
 
             {/* Certificação */}
-            <section id="certificacao" className="py-20 px-6 bg-white text-black">
+            <section id="certificacao" className="py-12 sm:py-16 md:py-20 px-6 bg-white text-black">
                 <div className="max-w-[800px] mx-auto text-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -354,7 +354,7 @@ export default function SerieVBP() {
             </section>
 
             {/* CTA Final */}
-            <section className="py-20 px-6 bg-white border-t border-gray-200 text-black">
+            <section className="py-12 sm:py-16 md:py-20 px-6 bg-white border-t border-gray-200 text-black">
                 <div className="max-w-[800px] mx-auto text-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
