@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gear, Shield, Sun, Wind, Lightning, Drop, Gauge, Circuitry, Wrench, Eye, Cube, Leaf } from "@phosphor-icons/react";
@@ -38,6 +39,7 @@ const opcionais = [
 export default function SkidsDosagem() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
+    <Seo title="Skids de Dosagem | Voltic Bombas" description="Sistemas completos PLUG & PLAY de dosagem, com bomba, painel elétrico, tubulações, válvulas e filtros integrados." />
             {/* Hero */}
             <section className="py-10 sm:py-12 md:py-16 px-6">
                 <div className="max-w-[1200px] mx-auto grid lg:grid-cols-2 gap-12 items-center">

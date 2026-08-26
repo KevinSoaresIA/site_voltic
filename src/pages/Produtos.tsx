@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Seo } from "../components/Seo";
 import { motion } from "motion/react";
 import {
   ArrowRight,
@@ -94,6 +95,7 @@ const produtos = [
 export default function Produtos() {
   return (
     <div className="bg-brand-bg min-h-screen text-brand-text pt-16">
+    <Seo title="Produtos | Voltic Bombas" description="Conheça a linha completa de bombas helicoidais, centrífugas, de fuso, lóbulos, pistão, peristálticas, dosadoras e skids de dosagem da Voltic." />
       {/* Hero */}
       <section className="py-10 sm:py-12 md:py-10 sm:py-12 md:py-16 px-6 border-b border-brand-border">
         <div className="max-w-[1400px] mx-auto">

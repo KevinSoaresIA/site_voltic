@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Seo } from "../components/Seo";
 import { motion } from "motion/react";
 import {
   ArrowRight,
@@ -99,6 +100,7 @@ const garantias = [
 export default function Servicos() {
   return (
     <div className="bg-brand-bg min-h-screen text-brand-text">
+    <Seo title="Serviços | Voltic Bombas" description="Fabricação própria, manutenção preventiva e corretiva, assistência técnica e treinamentos para bombas helicoidais Voltic e de outras marcas." />
       {/* 1. HERO */}
       <section className="relative min-h-[50vh] md:min-h-[60vh] flex items-center justify-center overflow-hidden pt-12 md:pt-16 pb-12 sm:pb-16 md:pb-20 px-6 border-b border-brand-border">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>

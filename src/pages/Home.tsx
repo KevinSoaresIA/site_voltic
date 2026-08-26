@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Seo } from "../components/Seo";
 import { ArrowRight, Globe, Plant, Drop, Tree, ForkKnife, Flask, ArrowUpRight, Gear, Wrench, ShieldCheck, GraduationCap, Package, Ruler, Headset } from "@phosphor-icons/react";
 import { motion } from "motion/react";
 import bombaMontada from "../assets/images/nova_home.png";
@@ -19,6 +20,7 @@ import homeLogoDrivilux from "../assets/images/home-logo-drivilux.png";
 export default function Home() {
   return (
     <div className="bg-brand-bg min-h-screen text-brand-text">
+    <Seo title="Voltic Bombas | Sistemas de Bombeamento Industrial" description="Fabricação, dimensionamento, manutenção e assistência técnica de bombas helicoidais e sistemas de bombeamento industrial. Soluções sob medida da Voltic para as indústrias mais exigentes do país." />
       {/* 1. HERO SECTION */}
       <section id="hero-section" className="relative overflow-hidden min-h-[max(560px,92vh)] md:min-h-screen">
         <img src={bombaMontada} alt="Bomba Helicoidal Voltic" className="absolute inset-0 w-full h-full object-cover object-[100%_110%]" />

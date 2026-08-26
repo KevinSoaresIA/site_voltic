@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Drop, Medal, PaintBrush, SprayBottle, ForkKnife, Factory, IceCream, ShieldCheck } from "@phosphor-icons/react";
@@ -69,6 +70,7 @@ const caracteristicas = [
 export default function SerieVSM() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
+    <Seo title="Série VSM: Sistemas Misturadores | Voltic Bombas" description="Sistemas misturadores em linha, com três modelos especializados para diferentes aplicações e viscosidades." />
             {/* Hero */}
             <section className="py-10 sm:py-12 md:py-16 px-6">
                 <div className="max-w-[1200px] mx-auto">

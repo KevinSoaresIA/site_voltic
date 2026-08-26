@@ -1,8 +1,10 @@
 import { motion } from "motion/react";
+import { Seo } from "../components/Seo";
 
 export default function Privacidade() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
+    <Seo title="Política de Privacidade | Voltic Bombas" description="Saiba como a Voltic coleta, usa e protege seus dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD)." />
             {/* Hero */}
             <section className="py-10 sm:py-14 md:py-16 px-6 border-b border-brand-border">
                 <div className="max-w-[800px] mx-auto">

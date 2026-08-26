@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Seo } from "../components/Seo";
 import { Link, useSearchParams } from "react-router-dom";
 import { motion } from "motion/react";
 import {
@@ -81,6 +82,7 @@ export default function Contato() {
 
   return (
     <div className="bg-brand-bg min-h-screen text-brand-text">
+    <Seo title="Contato | Voltic Bombas" description="Fale com a equipe técnica da Voltic para dimensionamento, orçamento ou suporte. Telefone, WhatsApp, e-mail e endereço da fábrica em Rio dos Cedros, SC." />
       {/* 1. HERO */}
       <section className="relative min-h-[40vh] md:min-h-[50vh] flex items-center justify-center overflow-hidden pt-12 md:pt-16 pb-10 sm:pb-12 md:pb-16 px-6 border-b border-brand-border">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>

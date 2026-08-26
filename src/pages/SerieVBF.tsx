@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gauge, Thermometer, Drop, TrendUp, Flask, CheckCircle, Medal, IceCream, ForkKnife, TestTube, Factory, Recycle, Gear } from "@phosphor-icons/react";
@@ -54,6 +55,7 @@ const selos = [
 export default function SerieVBF() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
+    <Seo title="Série VBF: Bombas de Fuso | Voltic Bombas" description="Bombas de fuso com bombeamento suave e constante, sem pulsações, certificadas para aplicações sanitárias e alimentícias." />
             {/* Hero */}
             <section className="py-10 sm:py-12 md:py-16 px-6">
                 <div className="max-w-[1200px] mx-auto">

@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gauge, Drop, ShieldCheck, Recycle, Wrench, CheckCircle, ForkKnife, TestTube, Flask } from "@phosphor-icons/react";
@@ -25,6 +26,7 @@ const aplicacoes = [
 export default function BombasPeristalticas() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
+    <Seo title="Bombas Peristálticas | Voltic Bombas" description="Bombas peristálticas que garantem a pureza do líquido e evitam contaminações, ideais para indústria alimentícia, farmacêutica e tratamento de água." />
             {/* Hero */}
             <section className="py-10 sm:py-12 md:py-16 px-6">
                 <div className="max-w-[1200px] mx-auto">

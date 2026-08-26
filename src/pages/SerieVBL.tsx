@@ -1,5 +1,6 @@
 
 import { motion } from "motion/react";
+import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gauge, Thermometer, Drop, TrendUp, Medal, Gear, ArrowsLeftRight, CheckCircle, TestTube, Flask, ForkKnife, PaintBucket } from "@phosphor-icons/react";
@@ -36,6 +37,7 @@ const benefícios = [
 export default function SerieVBL() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
+    <Seo title="Série VBL: Bombas de Lóbulos | Voltic Bombas" description="Bombas de lóbulos de fácil manutenção e operação simples, ideais para fluidos pastosos e de alta viscosidade." />
             {/* Hero */}
             <section className="py-10 sm:py-12 md:py-16 px-6">
                 <div className="max-w-[1200px] mx-auto">

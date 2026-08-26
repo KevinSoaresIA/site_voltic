@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Seo } from "../components/Seo";
 import { motion, AnimatePresence } from "motion/react";
 import { CaretDown } from "@phosphor-icons/react";
 
@@ -64,6 +65,7 @@ export default function FAQ() {
 
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
+    <Seo title="Perguntas Frequentes | Voltic Bombas" description="Tire suas dúvidas sobre prazos, assistência técnica, garantia e funcionamento das bombas helicoidais Voltic." />
             {/* Hero */}
             <section className="py-10 sm:py-12 md:py-16 px-6 border-b border-brand-border">
                 <div className="max-w-[800px] mx-auto text-center">

@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gauge, Thermometer, Drop, TrendUp, Gear, CheckCircle, Medal, Flask, TestTube, ForkKnife, Factory, Shield } from "@phosphor-icons/react";
@@ -58,6 +59,7 @@ const beneficios = [
 export default function SerieVBC() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
+    <Seo title="Série VBC: Bombas Centrífugas | Voltic Bombas" description="Bombas centrífugas versáteis e econômicas, com rotor aberto e fluxo radial, ideais para produtos aquosos e líquidos de baixa viscosidade." />
             {/* Hero */}
             <section className="py-10 sm:py-12 md:py-16 px-6">
                 <div className="max-w-[1200px] mx-auto">

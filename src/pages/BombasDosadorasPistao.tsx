@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gauge, Thermometer, Drop, Shield, Factory, TestTube, Flask, Power, Timer, Cube, Eye } from "@phosphor-icons/react";
@@ -42,6 +43,7 @@ const detalhes = [
 export default function BombasDosadorasPistao() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
+    <Seo title="Bombas Dosadoras de Pistão | Voltic Bombas" description="Bombas dosadoras de pistão extremamente robustas e confiáveis, ideais para aditivos químicos compatíveis com Inox AISI 316L." />
             {/* Hero */}
             <section className="py-10 sm:py-12 md:py-16 px-6">
                 <div className="max-w-[1200px] mx-auto grid lg:grid-cols-2 gap-12 items-center">

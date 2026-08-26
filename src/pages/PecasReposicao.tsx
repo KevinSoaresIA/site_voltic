@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gear, Drop, Cube, Wrench, ShieldCheck, Package, Ruler, Truck, CheckCircle, Headset } from "@phosphor-icons/react";
@@ -52,6 +53,7 @@ const beneficios = [
 export default function PecasReposicao() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
+    <Seo title="Peças de Reposição | Voltic Bombas" description="Rotores, estatores, selos mecânicos e demais componentes originais Voltic para manutenção e reforma de bombas helicoidais, com pronta entrega." />
             {/* Hero */}
             <section className="py-10 sm:py-12 md:py-16 px-6">
                 <div className="max-w-[1400px] mx-auto grid lg:grid-cols-12 gap-12 items-center">

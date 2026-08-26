@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gauge, Drop, Clock, Shield, Lightning, Circuitry, Gear, ShieldCheck, Eye } from "@phosphor-icons/react";
@@ -27,6 +28,7 @@ const detalhes = [
 export default function BombasDosadorasDiafragma() {
     return (
         <div className="bg-brand-bg text-brand-text pt-16">
+    <Seo title="Bombas Dosadoras de Diafragma | Voltic Bombas" description="Bombas dosadoras de diafragma altamente confiáveis e robustas, ideais para produtos químicos agressivos e fluidos de baixa viscosidade." />
             {/* Hero */}
             <section className="py-10 sm:py-12 md:py-16 px-6">
                 <div className="max-w-[1200px] mx-auto">
