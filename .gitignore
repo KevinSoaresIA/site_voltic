@@ -37,3 +37,6 @@ server.archived/dist/
 .claudeignore
 skills-lock.json
 taste-skill-main.zip
+
+# Playbook pessoal, local — não faz parte do site nem do que é entregue
+criacao-de-site.md
