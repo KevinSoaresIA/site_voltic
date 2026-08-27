@@ -3,11 +3,11 @@ import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Drop, Medal, PaintBrush, SprayBottle, ForkKnife, Factory, IceCream, ShieldCheck } from "@phosphor-icons/react";
-import serieVsmLiProduto from "../assets/images/serie-vsm-li-produto.png";
-import serieVsmLiCorte from "../assets/images/serie-vsm-li-corte.png";
-import serieVsmPlProduto from "../assets/images/serie-vsm-pl-produto.png";
-import serieVsmPlSistema from "../assets/images/serie-vsm-pl-sistema.png";
-import serieVsmAvProduto from "../assets/images/serie-vsm-av-produto.png";
+import serieVsmLiProduto from "../assets/images/serie-vsm-li-produto.webp";
+import serieVsmLiCorte from "../assets/images/serie-vsm-li-corte.webp";
+import serieVsmPlProduto from "../assets/images/serie-vsm-pl-produto.webp";
+import serieVsmPlSistema from "../assets/images/serie-vsm-pl-sistema.webp";
+import serieVsmAvProduto from "../assets/images/serie-vsm-av-produto.webp";
 
 const modelos = [
     {

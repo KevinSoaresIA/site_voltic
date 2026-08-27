@@ -4,9 +4,9 @@ import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gauge, Thermometer, Drop, TrendUp, Medal, Gear, ArrowsLeftRight, CheckCircle, TestTube, Flask, ForkKnife, PaintBucket } from "@phosphor-icons/react";
-import serieVblDireita from "../assets/images/serie-vbl-direita.png";
-import serieVblCorte from "../assets/images/serie-vbl-corte.png";
-import serieVblEsquerda from "../assets/images/serie-vbl-esquerda.png";
+import serieVblDireita from "../assets/images/serie-vbl-direita.webp";
+import serieVblCorte from "../assets/images/serie-vbl-corte.webp";
+import serieVblEsquerda from "../assets/images/serie-vbl-esquerda.webp";
 
 const specs = [
     { icon: <Gauge size={28} />, label: "Vazão", value: "até 45 m³/h" },

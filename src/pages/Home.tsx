@@ -2,20 +2,20 @@ import { Link } from "react-router-dom";
 import { Seo } from "../components/Seo";
 import { ArrowRight, Globe, Plant, Drop, Tree, ForkKnife, Flask, ArrowUpRight, Gear, Wrench, ShieldCheck, GraduationCap, Package, Ruler, Headset } from "@phosphor-icons/react";
 import { motion } from "motion/react";
-import bombaMontada from "../assets/images/nova_home.png";
+import bombaMontada from "../assets/images/nova_home.webp";
 import volticEmpresaLocal from "../assets/images/voltic_empresa_local.webp";
-import homeHydroelectricPlant from "../assets/images/home-hydroelectric-plant.jpg";
-import homeIndustryFactory from "../assets/images/home-industry-factory.jpg";
-import homeLogisticsOperations from "../assets/images/home-logistics-operations.jpg";
-import homeFiberglassPlant from "../assets/images/home-fiberglass-plant.jpg";
-import homeFoodProcessingPlant from "../assets/images/home-food-processing-plant.jpg";
-import homeSteelFactory from "../assets/images/home-steel-factory.jpg";
-import homeLogoPartner1 from "../assets/images/home-logo-partner-1.png";
-import homeLogoPjx from "../assets/images/home-logo-pjx.png";
-import homeLogoMotorks from "../assets/images/home-logo-motorks.png";
-import homeLogoNatura from "../assets/images/home-logo-natura.png";
-import homeLogoPartner2 from "../assets/images/home-logo-partner-2.png";
-import homeLogoDrivilux from "../assets/images/home-logo-drivilux.png";
+import homeHydroelectricPlant from "../assets/images/home-hydroelectric-plant.webp";
+import homeIndustryFactory from "../assets/images/home-industry-factory.webp";
+import homeLogisticsOperations from "../assets/images/home-logistics-operations.webp";
+import homeFiberglassPlant from "../assets/images/home-fiberglass-plant.webp";
+import homeFoodProcessingPlant from "../assets/images/home-food-processing-plant.webp";
+import homeSteelFactory from "../assets/images/home-steel-factory.webp";
+import homeLogoPartner1 from "../assets/images/home-logo-partner-1.webp";
+import homeLogoPjx from "../assets/images/home-logo-pjx.webp";
+import homeLogoMotorks from "../assets/images/home-logo-motorks.webp";
+import homeLogoNatura from "../assets/images/home-logo-natura.webp";
+import homeLogoPartner2 from "../assets/images/home-logo-partner-2.webp";
+import homeLogoDrivilux from "../assets/images/home-logo-drivilux.webp";
 
 export default function Home() {
   return (

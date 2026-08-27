@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import whatsappIcon from "../assets/images/whatsapp-icon.png";
+import whatsappIcon from "../assets/images/whatsapp-icon.webp";
 
 export function WhatsAppButton() {
   const whatsappUrl = "https://wa.me/554733002250";

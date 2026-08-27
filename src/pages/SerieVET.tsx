@@ -3,7 +3,7 @@ import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gauge, Thermometer, Drop, TrendUp, Flask, CheckCircle, Medal, ForkKnife, TestTube, Recycle, ShieldCheck } from "@phosphor-icons/react";
-import serieVetProduto from "../assets/images/serie-vet-produto.png";
+import serieVetProduto from "../assets/images/serie-vet-produto.webp";
 
 const specs = [
     { icon: <Gauge size={28} />, label: "Vazão", value: "até 13,6 m³/h" },

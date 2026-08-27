@@ -3,7 +3,7 @@ import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gauge, Thermometer, Drop, Shield, Factory, TestTube, Flask, Power, Timer, Cube, Eye } from "@phosphor-icons/react";
-import bombaDosadoraPistaoProduto from "../assets/images/bombas-dosadoras-pistao-produto.png";
+import bombaDosadoraPistaoProduto from "../assets/images/bombas-dosadoras-pistao-produto.webp";
 
 const specs = [
     { icon: <Gauge size={28} />, label: "Vazão", value: "0,1 a 228 l/h" },

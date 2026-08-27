@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Seo } from "../components/Seo";
 import { motion } from "motion/react";
 import volticEmpresaLocal from "../assets/images/voltic_empresa_local.webp";
-import apertoDeMaoNegociacao from "../assets/images/aperto_de_mão_negociacao.avif";
+import apertoDeMaoNegociacao from "../assets/images/aperto_de_mão_negociacao.webp";
 import {
   ArrowRight,
   Target,

@@ -3,8 +3,8 @@ import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gear, Shield, Sun, Wind, Lightning, Drop, Gauge, Circuitry, Wrench, Eye, Cube, Leaf } from "@phosphor-icons/react";
-import skids1 from "../assets/images/skids-1.jpeg";
-import skids2 from "../assets/images/skids-2.jpeg";
+import skids1 from "../assets/images/skids-1.webp";
+import skids2 from "../assets/images/skids-2.webp";
 
 const caracteristicas = [
     { icon: <Circuitry size={24} />, titulo: "Sistema PLUG & PLAY", desc: "Solução completa e pronta com bomba(s), painel elétrico, tubulações, válvulas e filtros. Basta acoplar na linha de injeção e ligar." },

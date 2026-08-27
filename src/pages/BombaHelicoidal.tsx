@@ -3,10 +3,10 @@ import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gauge, Thermometer, Drop, TrendUp, Gear, CheckCircle, Shield, Wrench, Factory, Flask, ForkKnife, Sun, Warning, Sparkle, Recycle, Leaf, Circuitry, DropHalf, Eye, Lightning } from "@phosphor-icons/react";
-import bomba45Logo from "../assets/images/bomba-helicoidal-bomba45-logo.jpg";
-import bomba15CorpoMicrofundido from "../assets/images/bomba-helicoidal-bomba15-corpo-microfundido.png";
-import bombaHelicoidalTabela from "../assets/images/bomba-helicoidal-tabela.png";
-import estatorRotorCorte from "../assets/images/bomba-helicoidal-estator-rotor-corte.jpeg";
+import bomba45Logo from "../assets/images/bomba-helicoidal-bomba45-logo.webp";
+import bomba15CorpoMicrofundido from "../assets/images/bomba-helicoidal-bomba15-corpo-microfundido.webp";
+import bombaHelicoidalTabela from "../assets/images/bomba-helicoidal-tabela.webp";
+import estatorRotorCorte from "../assets/images/bomba-helicoidal-estator-rotor-corte.webp";
 
 const specs = [
     { icon: <Gauge size={28} />, label: "Vazão", value: "até 250 m³/h" },
