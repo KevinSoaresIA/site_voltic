@@ -1,5 +1,7 @@
 # Contexto do Projeto — Site Voltic Bombas
 
+> **Nota do Kevin:** deixei esse arquivo aqui como base de contexto para a arquitetura do site e direcionamento para inteligências artificiais.
+
 > Arquivo de continuidade para próximas sessões. Última atualização: 25/08/2026.
 
 ## O que é o projeto

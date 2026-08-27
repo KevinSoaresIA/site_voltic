@@ -1,5 +1,7 @@
 # Este backend está arquivado
 
+> **Nota do Kevin:** esse é um backend abandonado que pode ser usado no futuro.
+
 **Decisão (16 ago 2026):** o site usa apenas o WhatsApp como canal de envio dos
 formulários (Contato e Trabalhe Conosco). Este backend Node.js/Express — que
 já estava pronto (validação, rate limiting, SQLite, LGPD consent) — nunca chegou
