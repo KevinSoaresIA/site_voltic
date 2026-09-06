@@ -3,6 +3,7 @@ import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gauge, Drop, ShieldCheck, Recycle, Wrench, CheckCircle, ForkKnife, TestTube, Flask } from "@phosphor-icons/react";
+import bombaPeristalticaProduto from "../assets/images/bombas-peristalticas-produto.webp";
 
 const specs = [
     { icon: <Gauge size={28} />, label: "Vazão", value: "18 l/h a 50 m³/h" },
@@ -29,7 +30,7 @@ export default function BombasPeristalticas() {
     <Seo title="Bombas Peristálticas | Voltic Bombas" description="Bombas peristálticas que garantem a pureza do líquido e evitam contaminações, ideais para indústria alimentícia, farmacêutica e tratamento de água." />
             {/* Hero */}
             <section className="py-10 sm:py-12 md:py-16 px-6">
-                <div className="max-w-[1200px] mx-auto">
+                <div className="max-w-[1200px] mx-auto grid lg:grid-cols-2 gap-12 items-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -63,6 +64,15 @@ export default function BombasPeristalticas() {
                                 Solicitar Dimensionamento
                             </a>
                         </div>
+                    </motion.div>
+
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+                        className="relative w-full aspect-[4/3] rounded-lg border border-brand-border overflow-hidden bg-white"
+                    >
+                        <img src={bombaPeristalticaProduto} alt="Bomba Peristáltica Voltic" className="w-full h-full object-contain" />
                     </motion.div>
                 </div>
             </section>
