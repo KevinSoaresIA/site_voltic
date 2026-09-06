@@ -3,6 +3,7 @@ import { Seo } from "../components/Seo";
 import { ArrowRight, Globe, Plant, Drop, Tree, ForkKnife, Flask, ArrowUpRight, Gear, Wrench, ShieldCheck, GraduationCap, Package, Ruler, Headset } from "@phosphor-icons/react";
 import { motion } from "motion/react";
 import bombaMontada from "../assets/images/nova_home.webp";
+import bombaMontadaMobile from "../assets/images/home-mobile-hero.webp";
 import volticEmpresaLocal from "../assets/images/voltic_empresa_local.webp";
 import homeHydroelectricPlant from "../assets/images/home-hydroelectric-plant.webp";
 import homeIndustryFactory from "../assets/images/home-industry-factory.webp";
@@ -10,11 +11,11 @@ import homeLogisticsOperations from "../assets/images/home-logistics-operations.
 import homeFiberglassPlant from "../assets/images/home-fiberglass-plant.webp";
 import homeFoodProcessingPlant from "../assets/images/home-food-processing-plant.webp";
 import homeSteelFactory from "../assets/images/home-steel-factory.webp";
-import homeLogoPartner1 from "../assets/images/home-logo-partner-1.webp";
+import homeLogoSpazio from "../assets/images/home-logo-spazio.webp";
 import homeLogoPjx from "../assets/images/home-logo-pjx.webp";
 import homeLogoMotorks from "../assets/images/home-logo-motorks.webp";
 import homeLogoNatura from "../assets/images/home-logo-natura.webp";
-import homeLogoPartner2 from "../assets/images/home-logo-partner-2.webp";
+import homeLogoImoge from "../assets/images/home-logo-imoge.webp";
 import homeLogoDrivilux from "../assets/images/home-logo-drivilux.webp";
 
 export default function Home() {
@@ -23,15 +24,13 @@ export default function Home() {
     <Seo title="Voltic Bombas | Sistemas de Bombeamento Industrial" description="Fabricação, dimensionamento, manutenção e assistência técnica de bombas helicoidais e sistemas de bombeamento industrial. Soluções sob medida da Voltic para as indústrias mais exigentes do país." />
       {/* 1. HERO SECTION */}
       <section id="hero-section" className="relative overflow-hidden min-h-[max(560px,92vh)] md:min-h-screen">
-        <img src={bombaMontada} alt="Bomba Helicoidal Voltic" className="absolute inset-0 w-full h-full object-cover object-[100%_110%]" />
+        <img src={bombaMontadaMobile} alt="Bomba Helicoidal Voltic" className="md:hidden absolute inset-0 w-full h-full object-cover object-[68%_50%]" />
+        <img src={bombaMontada} alt="Bomba Helicoidal Voltic" className="hidden md:block absolute inset-0 w-full h-full object-cover object-[100%_110%]" />
 
         {/* Mobile (abaixo de md): conteúdo em fluxo normal, sem posicionamento absoluto */}
         <div className="md:hidden absolute inset-0 bg-gradient-to-t from-brand-bg/75 via-brand-bg/25 to-transparent pointer-events-none"></div>
         <div className="md:hidden relative z-10 flex flex-col justify-end min-h-[max(560px,92vh)] px-6 pb-10 pt-24 gap-5">
           <div className="flex flex-col gap-3">
-            <span className="font-league-spartan text-brand-blue-bright text-sm font-black tracking-wide uppercase block">
-              SISTEMAS DE BOMBEAMENTO INDUSTRIAL
-            </span>
             <h1 className="font-archivo-black text-3xl text-white leading-[1.15]">
               Sua solução para bombeamento começa aqui
             </h1>
@@ -278,21 +277,21 @@ export default function Home() {
                 title: "Usinas de Açúcar e Álcool",
                 desc: "Movimentação eficiente de caldos, melaço, leveduras, vinhaça e outros fluidos viscosos do setor sucroenergético.",
                 icon: <Plant size={24} />,
-                image: homeFiberglassPlant,
+                image: homeIndustryFactory,
                 delay: 0.1
               },
               {
                 title: "Petrolífera",
                 desc: "Bombeamento multifásico de petróleo bruto, lamas de perfuração pesadas e lodos de refinaria abrasivos.",
                 icon: <Drop size={24} />,
-                image: homeIndustryFactory,
+                image: homeLogisticsOperations,
                 delay: 0.15
               },
               {
                 title: "Papel e Celulose",
                 desc: "Processamento de massas de papel de alta densidade, amidos, caolim, licores químicos e pastas celulósicas.",
                 icon: <Tree size={24} />,
-                image: homeIndustryFactory,
+                image: homeFiberglassPlant,
                 delay: 0.2
               },
               {
@@ -504,8 +503,8 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center">
             {[
               {
-                name: "Fakini Têxtil",
-                logo: homeLogoPartner1
+                name: "Spazio",
+                logo: homeLogoSpazio
               },
               {
                 name: "Natura",
@@ -524,8 +523,8 @@ export default function Home() {
                 logo: homeLogoPjx
               },
               {
-                name: "V-Tech",
-                logo: homeLogoPartner2
+                name: "Imoge",
+                logo: homeLogoImoge
               }
             ].map((client, index) => (
               <motion.div
