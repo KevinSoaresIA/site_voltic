@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useLocation, Outlet } from "react-router-dom";
 import Navbar from "./Navbar";
 import { Footer } from "./Footer";
@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "motion/react";
 
 export function Layout() {
   const { pathname } = useLocation();
+  const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
   // Scroll to top on route change
   useEffect(() => {
@@ -15,7 +16,7 @@ export function Layout() {
 
   return (
     <div className="flex flex-col min-h-screen bg-brand-bg text-brand-text selection:bg-brand-blue selection:text-white">
-      <Navbar />
+      <Navbar mobileOpen={mobileNavOpen} onMobileOpenChange={setMobileNavOpen} />
 
       {/* Main content with page transition */}
       <main className="flex-grow pt-20 md:pt-16">
@@ -33,7 +34,7 @@ export function Layout() {
       </main>
 
       <Footer />
-      <WhatsAppButton />
+      <WhatsAppButton hidden={mobileNavOpen} />
     </div>
   );
 }
