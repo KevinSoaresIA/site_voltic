@@ -260,7 +260,7 @@ export default function BombaHelicoidal() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6, delay: 0.1 }}
-                        className="bg-white border border-gray-200 rounded-lg p-6"
+                        className="min-w-0 bg-white border border-gray-200 rounded-lg p-6"
                     >
                         <h3 className="font-heading text-sm font-bold uppercase tracking-wider mb-6 text-brand-blue">
                             Especificações Técnicas

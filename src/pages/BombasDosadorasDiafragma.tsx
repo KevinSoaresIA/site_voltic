@@ -3,6 +3,7 @@ import { Seo } from "../components/Seo";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { SectionNav } from "../components/SectionNav";
 import { ArrowRight, ArrowUpRight, WhatsappLogo, Gauge, Drop, Clock, Shield, Lightning, Circuitry, Gear, ShieldCheck, Eye } from "@phosphor-icons/react";
+import bombaDosadoraDiafragmaProduto from "../assets/images/bombas-dosadoras-diafragma-produto.webp";
 
 const specs = [
     { icon: <Gauge size={28} />, label: "Vazão", value: "0,15 a 1.440 l/h" },
@@ -31,7 +32,7 @@ export default function BombasDosadorasDiafragma() {
     <Seo title="Bombas Dosadoras de Diafragma | Voltic Bombas" description="Bombas dosadoras de diafragma altamente confiáveis e robustas, ideais para produtos químicos agressivos e fluidos de baixa viscosidade." />
             {/* Hero */}
             <section className="py-10 sm:py-12 md:py-16 px-6">
-                <div className="max-w-[1200px] mx-auto">
+                <div className="max-w-[1200px] mx-auto grid lg:grid-cols-2 gap-12 items-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -65,6 +66,15 @@ export default function BombasDosadorasDiafragma() {
                                 Solicitar Dimensionamento
                             </a>
                         </div>
+                    </motion.div>
+
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+                        className="relative w-full aspect-[4/3] rounded-lg border border-brand-border overflow-hidden"
+                    >
+                        <img src={bombaDosadoraDiafragmaProduto} alt="Bomba Dosadora de Diafragma Voltic" className="w-full h-full object-cover" />
                     </motion.div>
                 </div>
             </section>

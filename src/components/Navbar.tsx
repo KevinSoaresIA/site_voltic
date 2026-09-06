@@ -19,9 +19,16 @@ const produtos = [
   { nome: "Bombas Dosadoras de Diafragma", rota: "/produtos/bombas-dosadoras-diafragma" },
 ];
 
-export default function Navbar() {
+type NavbarProps = {
+  mobileOpen?: boolean;
+  onMobileOpenChange?: (open: boolean) => void;
+};
+
+export default function Navbar({ mobileOpen: mobileOpenProp, onMobileOpenChange }: NavbarProps = {}) {
   const [scrolled, setScrolled] = useState(false);
-  const [mobileOpen, setMobileOpen] = useState(false);
+  const [mobileOpenState, setMobileOpenState] = useState(false);
+  const mobileOpen = onMobileOpenChange ? !!mobileOpenProp : mobileOpenState;
+  const setMobileOpen = onMobileOpenChange ?? setMobileOpenState;
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [mobileSubmenu, setMobileSubmenu] = useState<string | null>(null);
   const location = useLocation();
